@@ -1,0 +1,2912 @@
+Result for (0, 0, 0) (0, 0, 0, 24)
+Mean Absolute Percent Error:1.0
+Root Mean Squared Error:89.89641926786128
+----------------------------------
+Result for (0, 0, 0) (0, 0, 1, 24)
+Mean Absolute Percent Error:0.8608
+Root Mean Squared Error:80.20450752319742
+----------------------------------
+Result for (0, 0, 0) (0, 0, 2, 24)
+Mean Absolute Percent Error:0.7231
+Root Mean Squared Error:70.40095957701922
+----------------------------------
+Result for (0, 0, 0) (0, 1, 0, 24)
+Mean Absolute Percent Error:0.1035
+Root Mean Squared Error:9.762676843721172
+----------------------------------
+Result for (0, 0, 0) (0, 1, 1, 24)
+Mean Absolute Percent Error:0.0853
+Root Mean Squared Error:8.221631616272571
+----------------------------------
+Result for (0, 0, 0) (0, 1, 2, 24)
+Mean Absolute Percent Error:0.0831
+Root Mean Squared Error:8.822283710018455
+----------------------------------
+Result for (0, 0, 0) (0, 2, 0, 24)
+Mean Absolute Percent Error:0.2191
+Root Mean Squared Error:21.61800240925612
+----------------------------------
+Result for (0, 0, 0) (0, 2, 1, 24)
+Mean Absolute Percent Error:0.1247
+Root Mean Squared Error:11.86061201580169
+----------------------------------
+Result for (0, 0, 0) (0, 2, 2, 24)
+Mean Absolute Percent Error:0.0999
+Root Mean Squared Error:10.021360094843253
+----------------------------------
+Result for (0, 0, 0) (1, 0, 0, 24)
+Mean Absolute Percent Error:0.1046
+Root Mean Squared Error:9.835994984063365
+----------------------------------
+Result for (0, 0, 0) (1, 0, 1, 24)
+Mean Absolute Percent Error:0.0871
+Root Mean Squared Error:8.463562090689338
+----------------------------------
+Result for (0, 0, 0) (1, 0, 2, 24)
+Mean Absolute Percent Error:0.0833
+Root Mean Squared Error:8.845437488682734
+----------------------------------
+Result for (0, 0, 0) (1, 1, 0, 24)
+Mean Absolute Percent Error:0.0824
+Root Mean Squared Error:8.380319539254156
+----------------------------------
+Result for (0, 0, 0) (1, 1, 1, 24)
+Mean Absolute Percent Error:0.0821
+Root Mean Squared Error:8.2916206476897
+----------------------------------
+Result for (0, 0, 0) (1, 1, 2, 24)
+Mean Absolute Percent Error:0.0827
+Root Mean Squared Error:8.820309588112808
+----------------------------------
+Result for (0, 0, 0) (1, 2, 0, 24)
+Mean Absolute Percent Error:0.1133
+Root Mean Squared Error:10.873491439381553
+----------------------------------
+Result for (0, 0, 0) (1, 2, 1, 24)
+Mean Absolute Percent Error:0.1377
+Root Mean Squared Error:12.98626330425086
+----------------------------------
+Result for (0, 0, 0) (1, 2, 2, 24)
+Mean Absolute Percent Error:0.1627
+Root Mean Squared Error:15.267229260270003
+----------------------------------
+Result for (0, 0, 0) (2, 0, 0, 24)
+Mean Absolute Percent Error:0.0825
+Root Mean Squared Error:8.395346042654417
+----------------------------------
+Result for (0, 0, 0) (2, 0, 1, 24)
+Mean Absolute Percent Error:0.0823
+Root Mean Squared Error:8.29742658700624
+----------------------------------
+Result for (0, 0, 0) (2, 0, 2, 24)
+Mean Absolute Percent Error:0.087
+Root Mean Squared Error:8.443666364035117
+----------------------------------
+Result for (0, 0, 0) (2, 1, 0, 24)
+Mean Absolute Percent Error:0.0823
+Root Mean Squared Error:8.387940402674452
+----------------------------------
+Result for (0, 0, 0) (2, 1, 1, 24)
+Mean Absolute Percent Error:0.0826
+Root Mean Squared Error:8.511701352937973
+----------------------------------
+Result for (0, 0, 0) (2, 1, 2, 24)
+Mean Absolute Percent Error:0.0828
+Root Mean Squared Error:8.736322779069631
+----------------------------------
+Result for (0, 0, 0) (2, 2, 0, 24)
+Mean Absolute Percent Error:0.2147
+Root Mean Squared Error:20.52290396732693
+----------------------------------
+Result for (0, 0, 0) (2, 2, 1, 24)
+Mean Absolute Percent Error:0.2164
+Root Mean Squared Error:20.699903855014167
+----------------------------------
+Result for (0, 0, 0) (2, 2, 2, 24)
+Mean Absolute Percent Error:0.2202
+Root Mean Squared Error:21.124824974218086
+----------------------------------
+Result for (0, 0, 1) (0, 0, 0, 24)
+Mean Absolute Percent Error:0.9914
+Root Mean Squared Error:89.74923402555386
+----------------------------------
+Result for (0, 0, 1) (0, 0, 1, 24)
+Mean Absolute Percent Error:0.8527
+Root Mean Squared Error:79.97583348582151
+----------------------------------
+Result for (0, 0, 1) (0, 0, 2, 24)
+Mean Absolute Percent Error:0.7039
+Root Mean Squared Error:69.27835710329121
+----------------------------------
+Result for (0, 0, 1) (0, 1, 0, 24)
+Mean Absolute Percent Error:0.1035
+Root Mean Squared Error:9.763240272552112
+----------------------------------
+Result for (0, 0, 1) (0, 1, 1, 24)
+Mean Absolute Percent Error:0.0853
+Root Mean Squared Error:8.195226129788578
+----------------------------------
+Result for (0, 0, 1) (0, 1, 2, 24)
+Mean Absolute Percent Error:0.0841
+Root Mean Squared Error:8.77691815000605
+----------------------------------
+Result for (0, 0, 1) (0, 2, 0, 24)
+Mean Absolute Percent Error:0.2176
+Root Mean Squared Error:21.602383567211135
+----------------------------------
+Result for (0, 0, 1) (0, 2, 1, 24)
+Mean Absolute Percent Error:0.1242
+Root Mean Squared Error:11.831483399959154
+----------------------------------
+Result for (0, 0, 1) (0, 2, 2, 24)
+Mean Absolute Percent Error:0.0999
+Root Mean Squared Error:9.998933292019341
+----------------------------------
+Result for (0, 0, 1) (1, 0, 0, 24)
+Mean Absolute Percent Error:0.1144
+Root Mean Squared Error:10.729413015554645
+----------------------------------
+Result for (0, 0, 1) (1, 0, 1, 24)
+Mean Absolute Percent Error:0.0873
+Root Mean Squared Error:8.3777943421023
+----------------------------------
+Result for (0, 0, 1) (1, 0, 2, 24)
+Mean Absolute Percent Error:0.853
+Root Mean Squared Error:80.00590935900159
+----------------------------------
+Result for (0, 0, 1) (1, 1, 0, 24)
+Mean Absolute Percent Error:0.0835
+Root Mean Squared Error:8.423941601091325
+----------------------------------
+Result for (0, 0, 1) (1, 1, 1, 24)
+Mean Absolute Percent Error:0.0834
+Root Mean Squared Error:8.318399348955035
+----------------------------------
+Result for (0, 0, 1) (1, 1, 2, 24)
+Mean Absolute Percent Error:0.0847
+Root Mean Squared Error:8.896285950372008
+----------------------------------
+Result for (0, 0, 1) (1, 2, 0, 24)
+Mean Absolute Percent Error:0.1123
+Root Mean Squared Error:10.819171246240112
+----------------------------------
+Result for (0, 0, 1) (1, 2, 1, 24)
+Mean Absolute Percent Error:0.1367
+Root Mean Squared Error:12.936394008432123
+----------------------------------
+Result for (0, 0, 1) (1, 2, 2, 24)
+Mean Absolute Percent Error:0.1616
+Root Mean Squared Error:15.226167127159002
+----------------------------------
+Result for (0, 0, 1) (2, 0, 0, 24)
+Mean Absolute Percent Error:0.0846
+Root Mean Squared Error:8.496007106521823
+----------------------------------
+Result for (0, 0, 1) (2, 0, 1, 24)
+Mean Absolute Percent Error:0.0954
+Root Mean Squared Error:9.222390610909986
+----------------------------------
+Result for (0, 0, 1) (2, 0, 2, 24)
+Mean Absolute Percent Error:0.0898
+Root Mean Squared Error:8.806821523781343
+----------------------------------
+Result for (0, 0, 1) (2, 1, 0, 24)
+Mean Absolute Percent Error:0.0838
+Root Mean Squared Error:8.44437403225294
+----------------------------------
+Result for (0, 0, 1) (2, 1, 1, 24)
+Mean Absolute Percent Error:0.0839
+Root Mean Squared Error:8.567164397094245
+----------------------------------
+Result for (0, 0, 1) (2, 1, 2, 24)
+Mean Absolute Percent Error:0.0843
+Root Mean Squared Error:8.851157353272415
+----------------------------------
+Result for (0, 0, 1) (2, 2, 0, 24)
+Mean Absolute Percent Error:0.2125
+Root Mean Squared Error:20.407590372826355
+----------------------------------
+Result for (0, 0, 1) (2, 2, 1, 24)
+Mean Absolute Percent Error:0.2126
+Root Mean Squared Error:20.412003798444328
+----------------------------------
+Result for (0, 0, 1) (2, 2, 2, 24)
+Mean Absolute Percent Error:0.2146
+Root Mean Squared Error:20.62269458030702
+----------------------------------
+Result for (0, 0, 2) (0, 0, 0, 24)
+Mean Absolute Percent Error:0.9868
+Root Mean Squared Error:89.692062681921
+----------------------------------
+Result for (0, 0, 2) (0, 0, 1, 24)
+Mean Absolute Percent Error:0.8388
+Root Mean Squared Error:79.76097726343237
+----------------------------------
+Result for (0, 0, 2) (0, 0, 2, 24)
+Mean Absolute Percent Error:0.7491
+Root Mean Squared Error:72.30768503736726
+----------------------------------
+Result for (0, 0, 2) (0, 1, 0, 24)
+Mean Absolute Percent Error:0.1034
+Root Mean Squared Error:9.740206020778201
+----------------------------------
+Result for (0, 0, 2) (0, 1, 1, 24)
+Mean Absolute Percent Error:0.0849
+Root Mean Squared Error:8.178246661838266
+----------------------------------
+Result for (0, 0, 2) (0, 1, 2, 24)
+Mean Absolute Percent Error:0.0839
+Root Mean Squared Error:8.771081086435887
+----------------------------------
+Result for (0, 0, 2) (0, 2, 0, 24)
+Mean Absolute Percent Error:0.2184
+Root Mean Squared Error:21.604850618817995
+----------------------------------
+Result for (0, 0, 2) (0, 2, 1, 24)
+Mean Absolute Percent Error:0.1237
+Root Mean Squared Error:11.80282477335766
+----------------------------------
+Result for (0, 0, 2) (0, 2, 2, 24)
+Mean Absolute Percent Error:0.0989
+Root Mean Squared Error:9.935452510183332
+----------------------------------
+Result for (0, 0, 2) (1, 0, 0, 24)
+Mean Absolute Percent Error:0.1074
+Root Mean Squared Error:10.060565054272477
+----------------------------------
+Result for (0, 0, 2) (1, 0, 1, 24)
+Mean Absolute Percent Error:0.0854
+Root Mean Squared Error:8.212630732492558
+----------------------------------
+Result for (0, 0, 2) (1, 0, 2, 24)
+Mean Absolute Percent Error:0.8538
+Root Mean Squared Error:80.1238711855114
+----------------------------------
+Result for (0, 0, 2) (1, 1, 0, 24)
+Mean Absolute Percent Error:0.0834
+Root Mean Squared Error:8.42113413578065
+----------------------------------
+Result for (0, 0, 2) (1, 1, 1, 24)
+Mean Absolute Percent Error:0.0832
+Root Mean Squared Error:8.32638664448642
+----------------------------------
+Result for (0, 0, 2) (1, 1, 2, 24)
+Mean Absolute Percent Error:0.0846
+Root Mean Squared Error:8.915085608567852
+----------------------------------
+Result for (0, 0, 2) (1, 2, 0, 24)
+Mean Absolute Percent Error:0.1106
+Root Mean Squared Error:10.697510342365288
+----------------------------------
+Result for (0, 0, 2) (1, 2, 1, 24)
+Mean Absolute Percent Error:0.1349
+Root Mean Squared Error:12.835790400419313
+----------------------------------
+Result for (0, 0, 2) (1, 2, 2, 24)
+Mean Absolute Percent Error:0.1605
+Root Mean Squared Error:15.159629874785134
+----------------------------------
+Result for (0, 0, 2) (2, 0, 0, 24)
+Mean Absolute Percent Error:0.0854
+Root Mean Squared Error:8.552294923734774
+----------------------------------
+Result for (0, 0, 2) (2, 0, 1, 24)
+Mean Absolute Percent Error:0.1093
+Root Mean Squared Error:10.260623061646301
+----------------------------------
+Result for (0, 0, 2) (2, 0, 2, 24)
+Mean Absolute Percent Error:0.9123
+Root Mean Squared Error:82.28276875984538
+----------------------------------
+Result for (0, 0, 2) (2, 1, 0, 24)
+Mean Absolute Percent Error:0.0837
+Root Mean Squared Error:8.447438475497126
+----------------------------------
+Result for (0, 0, 2) (2, 1, 1, 24)
+Mean Absolute Percent Error:0.084
+Root Mean Squared Error:8.57607098795625
+----------------------------------
+Result for (0, 0, 2) (2, 1, 2, 24)
+Mean Absolute Percent Error:0.0841
+Root Mean Squared Error:8.830564134468503
+----------------------------------
+Result for (0, 0, 2) (2, 2, 0, 24)
+Mean Absolute Percent Error:0.2119
+Root Mean Squared Error:20.321499581983296
+----------------------------------
+Result for (0, 0, 2) (2, 2, 1, 24)
+Mean Absolute Percent Error:0.2118
+Root Mean Squared Error:20.312843099001256
+----------------------------------
+Result for (0, 0, 2) (2, 2, 2, 24)
+Mean Absolute Percent Error:0.2142
+Root Mean Squared Error:20.568135078936546
+----------------------------------
+Result for (0, 1, 0) (0, 0, 0, 24)
+Mean Absolute Percent Error:0.4035
+Root Mean Squared Error:37.15934473868519
+----------------------------------
+Result for (0, 1, 0) (0, 0, 1, 24)
+Mean Absolute Percent Error:0.3629
+Root Mean Squared Error:31.622331658662194
+----------------------------------
+Result for (0, 1, 0) (0, 0, 2, 24)
+Mean Absolute Percent Error:0.2889
+Root Mean Squared Error:26.739681425133366
+----------------------------------
+Result for (0, 1, 0) (0, 1, 0, 24)
+Mean Absolute Percent Error:0.1065
+Root Mean Squared Error:9.900206286079284
+----------------------------------
+Result for (0, 1, 0) (0, 1, 1, 24)
+Mean Absolute Percent Error:0.1171
+Root Mean Squared Error:11.125971565895595
+----------------------------------
+Result for (0, 1, 0) (0, 1, 2, 24)
+Mean Absolute Percent Error:0.126
+Root Mean Squared Error:11.920608916570208
+----------------------------------
+Result for (0, 1, 0) (0, 2, 0, 24)
+Mean Absolute Percent Error:0.3523
+Root Mean Squared Error:30.87206677635202
+----------------------------------
+Result for (0, 1, 0) (0, 2, 1, 24)
+Mean Absolute Percent Error:0.209
+Root Mean Squared Error:17.487822149834184
+----------------------------------
+Result for (0, 1, 0) (0, 2, 2, 24)
+Mean Absolute Percent Error:0.1621
+Root Mean Squared Error:13.895576823008824
+----------------------------------
+Result for (0, 1, 0) (1, 0, 0, 24)
+Mean Absolute Percent Error:0.1575
+Root Mean Squared Error:13.847093376896666
+----------------------------------
+Result for (0, 1, 0) (1, 0, 1, 24)
+Mean Absolute Percent Error:0.1208
+Root Mean Squared Error:11.559835191122309
+----------------------------------
+Result for (0, 1, 0) (1, 0, 2, 24)
+Mean Absolute Percent Error:0.1253
+Root Mean Squared Error:11.980019025847621
+----------------------------------
+Result for (0, 1, 0) (1, 1, 0, 24)
+Mean Absolute Percent Error:0.086
+Root Mean Squared Error:8.640099429191086
+----------------------------------
+Result for (0, 1, 0) (1, 1, 1, 24)
+Mean Absolute Percent Error:0.123
+Root Mean Squared Error:11.693916196473339
+----------------------------------
+Result for (0, 1, 0) (1, 1, 2, 24)
+Mean Absolute Percent Error:0.1261
+Root Mean Squared Error:11.923675202369088
+----------------------------------
+Result for (0, 1, 0) (1, 2, 0, 24)
+Mean Absolute Percent Error:0.1846
+Root Mean Squared Error:15.996357250010906
+----------------------------------
+Result for (0, 1, 0) (1, 2, 1, 24)
+Mean Absolute Percent Error:0.2046
+Root Mean Squared Error:17.776253248703128
+----------------------------------
+Result for (0, 1, 0) (1, 2, 2, 24)
+Mean Absolute Percent Error:0.2276
+Root Mean Squared Error:20.107777818950513
+----------------------------------
+Result for (0, 1, 0) (2, 0, 0, 24)
+Mean Absolute Percent Error:0.0949
+Root Mean Squared Error:9.84061085107864
+----------------------------------
+Result for (0, 1, 0) (2, 0, 1, 24)
+Mean Absolute Percent Error:0.123
+Root Mean Squared Error:11.813283630476551
+----------------------------------
+Result for (0, 1, 0) (2, 0, 2, 24)
+Mean Absolute Percent Error:0.1223
+Root Mean Squared Error:11.710511194480269
+----------------------------------
+Result for (0, 1, 0) (2, 1, 0, 24)
+Mean Absolute Percent Error:0.0973
+Root Mean Squared Error:9.64464436695481
+----------------------------------
+Result for (0, 1, 0) (2, 1, 1, 24)
+Mean Absolute Percent Error:0.11
+Root Mean Squared Error:10.629039352013255
+----------------------------------
+Result for (0, 1, 0) (2, 1, 2, 24)
+Mean Absolute Percent Error:0.103
+Root Mean Squared Error:10.085176325597915
+----------------------------------
+Result for (0, 1, 0) (2, 2, 0, 24)
+Mean Absolute Percent Error:0.1846
+Root Mean Squared Error:15.99413765328515
+----------------------------------
+Result for (0, 1, 0) (2, 2, 1, 24)
+Mean Absolute Percent Error:0.2408
+Root Mean Squared Error:21.44874425345692
+----------------------------------
+Result for (0, 1, 0) (2, 2, 2, 24)
+Mean Absolute Percent Error:0.1458
+Root Mean Squared Error:12.721900072423896
+----------------------------------
+Result for (0, 1, 1) (0, 0, 0, 24)
+Mean Absolute Percent Error:0.4174
+Root Mean Squared Error:42.70847526907395
+----------------------------------
+Result for (0, 1, 1) (0, 0, 1, 24)
+Mean Absolute Percent Error:0.3723
+Root Mean Squared Error:36.78031114769392
+----------------------------------
+Result for (0, 1, 1) (0, 0, 2, 24)
+Mean Absolute Percent Error:0.3021
+Root Mean Squared Error:30.924635615274145
+----------------------------------
+Result for (0, 1, 1) (0, 1, 0, 24)
+Mean Absolute Percent Error:0.1049
+Root Mean Squared Error:9.816828452572958
+----------------------------------
+Result for (0, 1, 1) (0, 1, 1, 24)
+Mean Absolute Percent Error:0.0935
+Root Mean Squared Error:8.93406464638417
+----------------------------------
+Result for (0, 1, 1) (0, 1, 2, 24)
+Mean Absolute Percent Error:0.0824
+Root Mean Squared Error:8.526293113543058
+----------------------------------
+Result for (0, 1, 1) (0, 2, 0, 24)
+Mean Absolute Percent Error:0.2503
+Root Mean Squared Error:22.8939525432171
+----------------------------------
+Result for (0, 1, 1) (0, 2, 1, 24)
+Mean Absolute Percent Error:0.1662
+Root Mean Squared Error:14.398029699893494
+----------------------------------
+Result for (0, 1, 1) (0, 2, 2, 24)
+Mean Absolute Percent Error:0.1494
+Root Mean Squared Error:12.975367885887653
+----------------------------------
+Result for (0, 1, 1) (1, 0, 0, 24)
+Mean Absolute Percent Error:0.1549
+Root Mean Squared Error:13.54586466999527
+----------------------------------
+Result for (0, 1, 1) (1, 0, 1, 24)
+Mean Absolute Percent Error:0.1158
+Root Mean Squared Error:11.102782236832958
+----------------------------------
+Result for (0, 1, 1) (1, 0, 2, 24)
+Mean Absolute Percent Error:0.1111
+Root Mean Squared Error:10.82536741858968
+----------------------------------
+Result for (0, 1, 1) (1, 1, 0, 24)
+Mean Absolute Percent Error:0.0801
+Root Mean Squared Error:8.168012269242558
+----------------------------------
+Result for (0, 1, 1) (1, 1, 1, 24)
+Mean Absolute Percent Error:0.0829
+Root Mean Squared Error:8.322967282011591
+----------------------------------
+Result for (0, 1, 1) (1, 1, 2, 24)
+Mean Absolute Percent Error:0.0816
+Root Mean Squared Error:8.506846003978355
+----------------------------------
+Result for (0, 1, 1) (1, 2, 0, 24)
+Mean Absolute Percent Error:0.1734
+Root Mean Squared Error:15.132109473261679
+----------------------------------
+Result for (0, 1, 1) (1, 2, 1, 24)
+Mean Absolute Percent Error:0.1441
+Root Mean Squared Error:12.590762929491884
+----------------------------------
+Result for (0, 1, 1) (1, 2, 2, 24)
+Mean Absolute Percent Error:0.2364
+Root Mean Squared Error:20.947959109925904
+----------------------------------
+Result for (0, 1, 1) (2, 0, 0, 24)
+Mean Absolute Percent Error:0.0867
+Root Mean Squared Error:8.984058060183198
+----------------------------------
+Result for (0, 1, 1) (2, 0, 1, 24)
+Mean Absolute Percent Error:0.1169
+Root Mean Squared Error:11.267920802056592
+----------------------------------
+Result for (0, 1, 1) (2, 0, 2, 24)
+Mean Absolute Percent Error:0.1163
+Root Mean Squared Error:11.172046174447829
+----------------------------------
+Result for (0, 1, 1) (2, 1, 0, 24)
+Mean Absolute Percent Error:0.0815
+Root Mean Squared Error:8.264790807459377
+----------------------------------
+Result for (0, 1, 1) (2, 1, 1, 24)
+Mean Absolute Percent Error:0.0813
+Root Mean Squared Error:8.235116998528884
+----------------------------------
+Result for (0, 1, 1) (2, 1, 2, 24)
+Mean Absolute Percent Error:0.0856
+Root Mean Squared Error:8.480384974173225
+----------------------------------
+Result for (0, 1, 1) (2, 2, 0, 24)
+Mean Absolute Percent Error:0.1317
+Root Mean Squared Error:11.83189873095538
+----------------------------------
+Result for (0, 1, 1) (2, 2, 1, 24)
+Mean Absolute Percent Error:0.3148
+Root Mean Squared Error:29.234306441505456
+----------------------------------
+Result for (0, 1, 1) (2, 2, 2, 24)
+Mean Absolute Percent Error:0.314
+Root Mean Squared Error:29.15716661332341
+----------------------------------
+Result for (0, 1, 2) (0, 0, 0, 24)
+Mean Absolute Percent Error:0.4251
+Root Mean Squared Error:44.794499972781765
+----------------------------------
+Result for (0, 1, 2) (0, 0, 1, 24)
+Mean Absolute Percent Error:0.3835
+Root Mean Squared Error:39.24575608149202
+----------------------------------
+Result for (0, 1, 2) (0, 0, 2, 24)
+Mean Absolute Percent Error:0.3202
+Root Mean Squared Error:34.94387973015346
+----------------------------------
+Result for (0, 1, 2) (0, 1, 0, 24)
+Mean Absolute Percent Error:0.1065
+Root Mean Squared Error:9.913642171041147
+----------------------------------
+Result for (0, 1, 2) (0, 1, 1, 24)
+Mean Absolute Percent Error:0.0975
+Root Mean Squared Error:9.273738588270465
+----------------------------------
+Result for (0, 1, 2) (0, 1, 2, 24)
+Mean Absolute Percent Error:0.0831
+Root Mean Squared Error:8.62717097430686
+----------------------------------
+Result for (0, 1, 2) (0, 2, 0, 24)
+Mean Absolute Percent Error:0.2232
+Root Mean Squared Error:22.18383384542163
+----------------------------------
+Result for (0, 1, 2) (0, 2, 1, 24)
+Mean Absolute Percent Error:0.1307
+Root Mean Squared Error:11.884148167294267
+----------------------------------
+Result for (0, 1, 2) (0, 2, 2, 24)
+Mean Absolute Percent Error:0.1198
+Root Mean Squared Error:11.027918312790787
+----------------------------------
+Result for (0, 1, 2) (1, 0, 0, 24)
+Mean Absolute Percent Error:0.1588
+Root Mean Squared Error:14.012025109191413
+----------------------------------
+Result for (0, 1, 2) (1, 0, 1, 24)
+Mean Absolute Percent Error:0.1142
+Root Mean Squared Error:10.941942568438423
+----------------------------------
+Result for (0, 1, 2) (1, 0, 2, 24)
+Mean Absolute Percent Error:0.1136
+Root Mean Squared Error:10.98497208393973
+----------------------------------
+Result for (0, 1, 2) (1, 1, 0, 24)
+Mean Absolute Percent Error:0.0827
+Root Mean Squared Error:8.356312167368069
+----------------------------------
+Result for (0, 1, 2) (1, 1, 1, 24)
+Mean Absolute Percent Error:0.0898
+Root Mean Squared Error:8.804458560762038
+----------------------------------
+Result for (0, 1, 2) (1, 1, 2, 24)
+Mean Absolute Percent Error:0.0814
+Root Mean Squared Error:8.67799779808952
+----------------------------------
+Result for (0, 1, 2) (1, 2, 0, 24)
+Mean Absolute Percent Error:0.1279
+Root Mean Squared Error:11.757163859336968
+----------------------------------
+Result for (0, 1, 2) (1, 2, 1, 24)
+Mean Absolute Percent Error:0.1172
+Root Mean Squared Error:10.810238983574969
+----------------------------------
+Result for (0, 1, 2) (1, 2, 2, 24)
+Mean Absolute Percent Error:0.1191
+Root Mean Squared Error:10.940554989143328
+----------------------------------
+Result for (0, 1, 2) (2, 0, 0, 24)
+Mean Absolute Percent Error:0.086
+Root Mean Squared Error:8.909963299074649
+----------------------------------
+Result for (0, 1, 2) (2, 0, 1, 24)
+Mean Absolute Percent Error:0.1147
+Root Mean Squared Error:11.058885287282964
+----------------------------------
+Result for (0, 1, 2) (2, 0, 2, 24)
+Mean Absolute Percent Error:0.1145
+Root Mean Squared Error:10.986007301348698
+----------------------------------
+Result for (0, 1, 2) (2, 1, 0, 24)
+Mean Absolute Percent Error:0.0867
+Root Mean Squared Error:8.678329110141588
+----------------------------------
+Result for (0, 1, 2) (2, 1, 1, 24)
+Mean Absolute Percent Error:0.0838
+Root Mean Squared Error:8.532049227804908
+----------------------------------
+Result for (0, 1, 2) (2, 1, 2, 24)
+Mean Absolute Percent Error:0.0805
+Root Mean Squared Error:8.517592442787429
+----------------------------------
+Result for (0, 1, 2) (2, 2, 0, 24)
+Mean Absolute Percent Error:0.1304
+Root Mean Squared Error:11.746201050213477
+----------------------------------
+Result for (0, 1, 2) (2, 2, 1, 24)
+Mean Absolute Percent Error:0.1799
+Root Mean Squared Error:16.86503709543026
+----------------------------------
+Result for (0, 1, 2) (2, 2, 2, 24)
+Mean Absolute Percent Error:0.1801
+Root Mean Squared Error:16.894174907080625
+----------------------------------
+Result for (0, 2, 0) (0, 0, 0, 24)
+Mean Absolute Percent Error:8.4083
+Root Mean Squared Error:770.902507491221
+----------------------------------
+Result for (0, 2, 0) (0, 0, 1, 24)
+Mean Absolute Percent Error:7.6533
+Root Mean Squared Error:716.0364554309388
+----------------------------------
+Result for (0, 2, 0) (0, 0, 2, 24)
+Mean Absolute Percent Error:7.8737
+Root Mean Squared Error:740.1175029033102
+----------------------------------
+Result for (0, 2, 0) (0, 1, 0, 24)
+Mean Absolute Percent Error:2.0501
+Root Mean Squared Error:207.41809854968568
+----------------------------------
+Result for (0, 2, 0) (0, 1, 1, 24)
+Mean Absolute Percent Error:2.2627
+Root Mean Squared Error:203.82882186389975
+----------------------------------
+Result for (0, 2, 0) (0, 1, 2, 24)
+Mean Absolute Percent Error:2.2409
+Root Mean Squared Error:195.83513040000904
+----------------------------------
+Result for (0, 2, 0) (0, 2, 0, 24)
+Mean Absolute Percent Error:3.2561
+Root Mean Squared Error:337.09243518459135
+----------------------------------
+Result for (0, 2, 0) (0, 2, 1, 24)
+Mean Absolute Percent Error:1.3806
+Root Mean Squared Error:151.9177074762447
+----------------------------------
+Result for (0, 2, 0) (0, 2, 2, 24)
+Mean Absolute Percent Error:2.0329
+Root Mean Squared Error:210.90765010166797
+----------------------------------
+Result for (0, 2, 0) (1, 0, 0, 24)
+Mean Absolute Percent Error:6.969
+Root Mean Squared Error:660.5546631548225
+----------------------------------
+Result for (0, 2, 0) (1, 0, 1, 24)
+Mean Absolute Percent Error:3.6639
+Root Mean Squared Error:332.306315247751
+----------------------------------
+Result for (0, 2, 0) (1, 0, 2, 24)
+Mean Absolute Percent Error:2.9149
+Root Mean Squared Error:254.68425535979804
+----------------------------------
+Result for (0, 2, 0) (1, 1, 0, 24)
+Mean Absolute Percent Error:3.821
+Root Mean Squared Error:368.291180640534
+----------------------------------
+Result for (0, 2, 0) (1, 1, 1, 24)
+Mean Absolute Percent Error:2.4659
+Root Mean Squared Error:219.13132609760916
+----------------------------------
+Result for (0, 2, 0) (1, 1, 2, 24)
+Mean Absolute Percent Error:1.8469
+Root Mean Squared Error:157.683620831628
+----------------------------------
+Result for (0, 2, 0) (1, 2, 0, 24)
+Mean Absolute Percent Error:1.7807
+Root Mean Squared Error:190.4019266476302
+----------------------------------
+Result for (0, 2, 0) (1, 2, 1, 24)
+Mean Absolute Percent Error:1.606
+Root Mean Squared Error:175.43458438231826
+----------------------------------
+Result for (0, 2, 0) (1, 2, 2, 24)
+Mean Absolute Percent Error:1.9435
+Root Mean Squared Error:205.78792896434186
+----------------------------------
+Result for (0, 2, 0) (2, 0, 0, 24)
+Mean Absolute Percent Error:5.8352
+Root Mean Squared Error:554.2406295026055
+----------------------------------
+Result for (0, 2, 0) (2, 0, 1, 24)
+Mean Absolute Percent Error:3.3797
+Root Mean Squared Error:300.9981103736496
+----------------------------------
+Result for (0, 2, 0) (2, 0, 2, 24)
+Mean Absolute Percent Error:2.3836
+Root Mean Squared Error:203.81280735542154
+----------------------------------
+Result for (0, 2, 0) (2, 1, 0, 24)
+Mean Absolute Percent Error:3.9378
+Root Mean Squared Error:364.0605243082952
+----------------------------------
+Result for (0, 2, 0) (2, 1, 1, 24)
+Mean Absolute Percent Error:2.7302
+Root Mean Squared Error:244.92165905997064
+----------------------------------
+Result for (0, 2, 0) (2, 1, 2, 24)
+Mean Absolute Percent Error:3.5779
+Root Mean Squared Error:340.7241559040283
+----------------------------------
+Result for (0, 2, 0) (2, 2, 0, 24)
+Mean Absolute Percent Error:2.2015
+Root Mean Squared Error:223.4167202076588
+----------------------------------
+Result for (0, 2, 0) (2, 2, 1, 24)
+Mean Absolute Percent Error:1.2524
+Root Mean Squared Error:140.93871877201315
+----------------------------------
+Result for (0, 2, 0) (2, 2, 2, 24)
+Mean Absolute Percent Error:2.2565
+Root Mean Squared Error:229.2177495679611
+----------------------------------
+Result for (0, 2, 1) (0, 0, 0, 24)
+Mean Absolute Percent Error:8.3065
+Root Mean Squared Error:761.7083564342578
+----------------------------------
+Result for (0, 2, 1) (0, 0, 1, 24)
+Mean Absolute Percent Error:6.6978
+Root Mean Squared Error:633.449256170926
+----------------------------------
+Result for (0, 2, 1) (0, 0, 2, 24)
+Mean Absolute Percent Error:5.0302
+Root Mean Squared Error:483.3458349481879
+----------------------------------
+Result for (0, 2, 1) (0, 1, 0, 24)
+Mean Absolute Percent Error:0.1486
+Root Mean Squared Error:12.96027164108934
+----------------------------------
+Result for (0, 2, 1) (0, 1, 1, 24)
+Mean Absolute Percent Error:0.0892
+Root Mean Squared Error:8.499062028795203
+----------------------------------
+Result for (0, 2, 1) (0, 1, 2, 24)
+Mean Absolute Percent Error:0.0863
+Root Mean Squared Error:8.27201233768315
+----------------------------------
+Result for (0, 2, 1) (0, 2, 0, 24)
+Mean Absolute Percent Error:0.4014
+Root Mean Squared Error:35.49103945247579
+----------------------------------
+Result for (0, 2, 1) (0, 2, 1, 24)
+Mean Absolute Percent Error:0.3029
+Root Mean Squared Error:26.22778550536295
+----------------------------------
+Result for (0, 2, 1) (0, 2, 2, 24)
+Mean Absolute Percent Error:0.2648
+Root Mean Squared Error:23.46011945676972
+----------------------------------
+Result for (0, 2, 1) (1, 0, 0, 24)
+Mean Absolute Percent Error:0.1567
+Root Mean Squared Error:13.987544283744958
+----------------------------------
+Result for (0, 2, 1) (1, 0, 1, 24)
+Mean Absolute Percent Error:0.1023
+Root Mean Squared Error:9.95255993180515
+----------------------------------
+Result for (0, 2, 1) (1, 0, 2, 24)
+Mean Absolute Percent Error:0.1234
+Root Mean Squared Error:11.808976254727751
+----------------------------------
+Result for (0, 2, 1) (1, 1, 0, 24)
+Mean Absolute Percent Error:0.0873
+Root Mean Squared Error:8.614509128611145
+----------------------------------
+Result for (0, 2, 1) (1, 1, 1, 24)
+Mean Absolute Percent Error:0.0858
+Root Mean Squared Error:8.234823002428824
+----------------------------------
+Result for (0, 2, 1) (1, 1, 2, 24)
+Mean Absolute Percent Error:0.0862
+Root Mean Squared Error:8.265398845142755
+----------------------------------
+Result for (0, 2, 1) (1, 2, 0, 24)
+Mean Absolute Percent Error:0.2615
+Root Mean Squared Error:23.20788446288097
+----------------------------------
+Result for (0, 2, 1) (1, 2, 1, 24)
+Mean Absolute Percent Error:0.2551
+Root Mean Squared Error:22.751152192345433
+----------------------------------
+Result for (0, 2, 1) (1, 2, 2, 24)
+Mean Absolute Percent Error:0.2516
+Root Mean Squared Error:22.591374777493147
+----------------------------------
+Result for (0, 2, 1) (2, 0, 0, 24)
+Mean Absolute Percent Error:0.0959
+Root Mean Squared Error:9.916252931106188
+----------------------------------
+Result for (0, 2, 1) (2, 0, 1, 24)
+Mean Absolute Percent Error:0.1112
+Root Mean Squared Error:10.711103734904102
+----------------------------------
+Result for (0, 2, 1) (2, 0, 2, 24)
+Mean Absolute Percent Error:0.0927
+Root Mean Squared Error:8.974876377582182
+----------------------------------
+Result for (0, 2, 1) (2, 1, 0, 24)
+Mean Absolute Percent Error:0.088
+Root Mean Squared Error:8.692050173066917
+----------------------------------
+Result for (0, 2, 1) (2, 1, 1, 24)
+Mean Absolute Percent Error:0.0877
+Root Mean Squared Error:8.638214363135928
+----------------------------------
+Result for (0, 2, 1) (2, 1, 2, 24)
+Mean Absolute Percent Error:0.0893
+Root Mean Squared Error:8.77455705355572
+----------------------------------
+Result for (0, 2, 1) (2, 2, 0, 24)
+Mean Absolute Percent Error:0.2496
+Root Mean Squared Error:22.44479899813683
+----------------------------------
+Result for (0, 2, 1) (2, 2, 1, 24)
+Mean Absolute Percent Error:0.2595
+Root Mean Squared Error:23.035801555116567
+----------------------------------
+Result for (0, 2, 1) (2, 2, 2, 24)
+Mean Absolute Percent Error:0.2615
+Root Mean Squared Error:23.212007082923215
+----------------------------------
+Result for (0, 2, 2) (0, 0, 0, 24)
+Mean Absolute Percent Error:8.1688
+Root Mean Squared Error:749.2293171493843
+----------------------------------
+Result for (0, 2, 2) (0, 0, 1, 24)
+Mean Absolute Percent Error:6.4508
+Root Mean Squared Error:610.4881600371513
+----------------------------------
+Result for (0, 2, 2) (0, 0, 2, 24)
+Mean Absolute Percent Error:5.0425
+Root Mean Squared Error:484.508456644579
+----------------------------------
+Result for (0, 2, 2) (0, 1, 0, 24)
+Mean Absolute Percent Error:0.1358
+Root Mean Squared Error:11.883093341126942
+----------------------------------
+Result for (0, 2, 2) (0, 1, 1, 24)
+Mean Absolute Percent Error:0.0955
+Root Mean Squared Error:8.902440083216622
+----------------------------------
+Result for (0, 2, 2) (0, 1, 2, 24)
+Mean Absolute Percent Error:0.1119
+Root Mean Squared Error:10.19835810610943
+----------------------------------
+Result for (0, 2, 2) (0, 2, 0, 24)
+Mean Absolute Percent Error:0.2888
+Root Mean Squared Error:26.01038773718127
+----------------------------------
+Result for (0, 2, 2) (0, 2, 1, 24)
+Mean Absolute Percent Error:0.2417
+Root Mean Squared Error:20.933721850724837
+----------------------------------
+Result for (0, 2, 2) (0, 2, 2, 24)
+Mean Absolute Percent Error:0.2319
+Root Mean Squared Error:20.423886087248526
+----------------------------------
+Result for (0, 2, 2) (1, 0, 0, 24)
+Mean Absolute Percent Error:0.1543
+Root Mean Squared Error:13.704613118645394
+----------------------------------
+Result for (0, 2, 2) (1, 0, 1, 24)
+Mean Absolute Percent Error:0.1054
+Root Mean Squared Error:10.188601561610856
+----------------------------------
+Result for (0, 2, 2) (1, 0, 2, 24)
+Mean Absolute Percent Error:0.1014
+Root Mean Squared Error:9.903715526317526
+----------------------------------
+Result for (0, 2, 2) (1, 1, 0, 24)
+Mean Absolute Percent Error:0.1096
+Root Mean Squared Error:9.922259782802644
+----------------------------------
+Result for (0, 2, 2) (1, 1, 1, 24)
+Mean Absolute Percent Error:0.0908
+Root Mean Squared Error:8.59470516106578
+----------------------------------
+Result for (0, 2, 2) (1, 1, 2, 24)
+Mean Absolute Percent Error:0.1114
+Root Mean Squared Error:10.154178399649496
+----------------------------------
+Result for (0, 2, 2) (1, 2, 0, 24)
+Mean Absolute Percent Error:0.2454
+Root Mean Squared Error:21.717687641484375
+----------------------------------
+Result for (0, 2, 2) (1, 2, 1, 24)
+Mean Absolute Percent Error:0.2294
+Root Mean Squared Error:20.523229924910055
+----------------------------------
+Result for (0, 2, 2) (1, 2, 2, 24)
+Mean Absolute Percent Error:0.2262
+Root Mean Squared Error:20.351452358345316
+----------------------------------
+Result for (0, 2, 2) (2, 0, 0, 24)
+Mean Absolute Percent Error:0.087
+Root Mean Squared Error:9.025229878130828
+----------------------------------
+Result for (0, 2, 2) (2, 0, 1, 24)
+Mean Absolute Percent Error:0.0963
+Root Mean Squared Error:9.405264662025635
+----------------------------------
+Result for (0, 2, 2) (2, 0, 2, 24)
+Mean Absolute Percent Error:0.1019
+Root Mean Squared Error:9.86172062837929
+----------------------------------
+Result for (0, 2, 2) (2, 1, 0, 24)
+Mean Absolute Percent Error:0.1018
+Root Mean Squared Error:9.402499395310148
+----------------------------------
+Result for (0, 2, 2) (2, 1, 1, 24)
+Mean Absolute Percent Error:0.1065
+Root Mean Squared Error:9.709096946723676
+----------------------------------
+Result for (0, 2, 2) (2, 1, 2, 24)
+Mean Absolute Percent Error:0.1136
+Root Mean Squared Error:10.221622461408938
+----------------------------------
+Result for (0, 2, 2) (2, 2, 0, 24)
+Mean Absolute Percent Error:0.214
+Root Mean Squared Error:19.155723346974632
+----------------------------------
+Result for (0, 2, 2) (2, 2, 1, 24)
+Mean Absolute Percent Error:0.3185
+Root Mean Squared Error:29.581214867232394
+----------------------------------
+Result for (0, 2, 2) (2, 2, 2, 24)
+Mean Absolute Percent Error:0.2149
+Root Mean Squared Error:19.251364795401983
+----------------------------------
+Result for (1, 0, 0) (0, 0, 0, 24)
+Mean Absolute Percent Error:0.4816
+Root Mean Squared Error:51.044160380664536
+----------------------------------
+Result for (1, 0, 0) (0, 0, 1, 24)
+Mean Absolute Percent Error:0.4368
+Root Mean Squared Error:46.89993328750043
+----------------------------------
+Result for (1, 0, 0) (0, 0, 2, 24)
+Mean Absolute Percent Error:0.3575
+Root Mean Squared Error:41.582701701105584
+----------------------------------
+Result for (1, 0, 0) (0, 1, 0, 24)
+Mean Absolute Percent Error:0.1033
+Root Mean Squared Error:9.732670373905572
+----------------------------------
+Result for (1, 0, 0) (0, 1, 1, 24)
+Mean Absolute Percent Error:0.0849
+Root Mean Squared Error:8.158922773306466
+----------------------------------
+Result for (1, 0, 0) (0, 1, 2, 24)
+Mean Absolute Percent Error:0.084
+Root Mean Squared Error:8.750041123305943
+----------------------------------
+Result for (1, 0, 0) (0, 2, 0, 24)
+Mean Absolute Percent Error:0.2182
+Root Mean Squared Error:21.616535537329927
+----------------------------------
+Result for (1, 0, 0) (0, 2, 1, 24)
+Mean Absolute Percent Error:0.1233
+Root Mean Squared Error:11.798957171638232
+----------------------------------
+Result for (1, 0, 0) (0, 2, 2, 24)
+Mean Absolute Percent Error:0.0986
+Root Mean Squared Error:9.92617905003584
+----------------------------------
+Result for (1, 0, 0) (1, 0, 0, 24)
+Mean Absolute Percent Error:0.2038
+Root Mean Squared Error:21.85899692861597
+----------------------------------
+Result for (1, 0, 0) (1, 0, 1, 24)
+Mean Absolute Percent Error:0.09
+Root Mean Squared Error:8.770025673398424
+----------------------------------
+Result for (1, 0, 0) (1, 0, 2, 24)
+Mean Absolute Percent Error:0.0883
+Root Mean Squared Error:8.596146199040694
+----------------------------------
+Result for (1, 0, 0) (1, 1, 0, 24)
+Mean Absolute Percent Error:0.0834
+Root Mean Squared Error:8.416281484969696
+----------------------------------
+Result for (1, 0, 0) (1, 1, 1, 24)
+Mean Absolute Percent Error:0.0833
+Root Mean Squared Error:8.324555072018534
+----------------------------------
+Result for (1, 0, 0) (1, 1, 2, 24)
+Mean Absolute Percent Error:0.0848
+Root Mean Squared Error:8.931109473557559
+----------------------------------
+Result for (1, 0, 0) (1, 2, 0, 24)
+Mean Absolute Percent Error:0.11
+Root Mean Squared Error:10.674530051493935
+----------------------------------
+Result for (1, 0, 0) (1, 2, 1, 24)
+Mean Absolute Percent Error:0.1353
+Root Mean Squared Error:12.83729075861689
+----------------------------------
+Result for (1, 0, 0) (1, 2, 2, 24)
+Mean Absolute Percent Error:0.1619
+Root Mean Squared Error:15.168330260785424
+----------------------------------
+Result for (1, 0, 0) (2, 0, 0, 24)
+Mean Absolute Percent Error:0.1118
+Root Mean Squared Error:11.446184047183388
+----------------------------------
+Result for (1, 0, 0) (2, 0, 1, 24)
+Mean Absolute Percent Error:0.0887
+Root Mean Squared Error:8.660762433575947
+----------------------------------
+Result for (1, 0, 0) (2, 0, 2, 24)
+Mean Absolute Percent Error:0.0881
+Root Mean Squared Error:8.543784842673928
+----------------------------------
+Result for (1, 0, 0) (2, 1, 0, 24)
+Mean Absolute Percent Error:0.0838
+Root Mean Squared Error:8.44765130494732
+----------------------------------
+Result for (1, 0, 0) (2, 1, 1, 24)
+Mean Absolute Percent Error:0.084
+Root Mean Squared Error:8.570470254452125
+----------------------------------
+Result for (1, 0, 0) (2, 1, 2, 24)
+Mean Absolute Percent Error:0.0842
+Root Mean Squared Error:8.831332419220399
+----------------------------------
+Result for (1, 0, 0) (2, 2, 0, 24)
+Mean Absolute Percent Error:0.214
+Root Mean Squared Error:20.40811538338147
+----------------------------------
+Result for (1, 0, 0) (2, 2, 1, 24)
+Mean Absolute Percent Error:0.2153
+Root Mean Squared Error:20.546744768241012
+----------------------------------
+Result for (1, 0, 0) (2, 2, 2, 24)
+Mean Absolute Percent Error:0.2193
+Root Mean Squared Error:20.98451609939002
+----------------------------------
+Result for (1, 0, 1) (0, 0, 0, 24)
+Mean Absolute Percent Error:0.5669
+Root Mean Squared Error:59.925700225021075
+----------------------------------
+Result for (1, 0, 1) (0, 0, 1, 24)
+Mean Absolute Percent Error:0.5112
+Root Mean Squared Error:55.368108613444726
+----------------------------------
+Result for (1, 0, 1) (0, 0, 2, 24)
+Mean Absolute Percent Error:0.4076
+Root Mean Squared Error:46.26230739372893
+----------------------------------
+Result for (1, 0, 1) (0, 1, 0, 24)
+Mean Absolute Percent Error:0.1032
+Root Mean Squared Error:9.733308366467144
+----------------------------------
+Result for (1, 0, 1) (0, 1, 1, 24)
+Mean Absolute Percent Error:0.0846
+Root Mean Squared Error:8.135441501930183
+----------------------------------
+Result for (1, 0, 1) (0, 1, 2, 24)
+Mean Absolute Percent Error:0.0839
+Root Mean Squared Error:8.77813863094543
+----------------------------------
+Result for (1, 0, 1) (0, 2, 0, 24)
+Mean Absolute Percent Error:0.2194
+Root Mean Squared Error:21.675370022071423
+----------------------------------
+Result for (1, 0, 1) (0, 2, 1, 24)
+Mean Absolute Percent Error:0.1233
+Root Mean Squared Error:11.857184921935538
+----------------------------------
+Result for (1, 0, 1) (0, 2, 2, 24)
+Mean Absolute Percent Error:0.0987
+Root Mean Squared Error:9.954520498360276
+----------------------------------
+Result for (1, 0, 1) (1, 0, 0, 24)
+Mean Absolute Percent Error:0.1951
+Root Mean Squared Error:20.778535990937925
+----------------------------------
+Result for (1, 0, 1) (1, 0, 1, 24)
+Mean Absolute Percent Error:0.0884
+Root Mean Squared Error:8.621821777019584
+----------------------------------
+Result for (1, 0, 1) (1, 0, 2, 24)
+Mean Absolute Percent Error:0.0877
+Root Mean Squared Error:8.536266536600545
+----------------------------------
+Result for (1, 0, 1) (1, 1, 0, 24)
+Mean Absolute Percent Error:0.0832
+Root Mean Squared Error:8.395028088467077
+----------------------------------
+Result for (1, 0, 1) (1, 1, 1, 24)
+Mean Absolute Percent Error:0.0829
+Root Mean Squared Error:8.319572233837247
+----------------------------------
+Result for (1, 0, 1) (1, 1, 2, 24)
+Mean Absolute Percent Error:0.0847
+Root Mean Squared Error:8.952050768019287
+----------------------------------
+Result for (1, 0, 1) (1, 2, 0, 24)
+Mean Absolute Percent Error:0.1125
+Root Mean Squared Error:10.724824756298624
+----------------------------------
+Result for (1, 0, 1) (1, 2, 1, 24)
+Mean Absolute Percent Error:0.1405
+Root Mean Squared Error:12.984616459992377
+----------------------------------
+Result for (1, 0, 1) (1, 2, 2, 24)
+Mean Absolute Percent Error:0.1675
+Root Mean Squared Error:15.3093085469441
+----------------------------------
+Result for (1, 0, 1) (2, 0, 0, 24)
+Mean Absolute Percent Error:0.1013
+Root Mean Squared Error:10.232104220058686
+----------------------------------
+Result for (1, 0, 1) (2, 0, 1, 24)
+Mean Absolute Percent Error:0.0876
+Root Mean Squared Error:8.547709102273085
+----------------------------------
+Result for (1, 0, 1) (2, 0, 2, 24)
+Mean Absolute Percent Error:0.0869
+Root Mean Squared Error:8.451256551147507
+----------------------------------
+Result for (1, 0, 1) (2, 1, 0, 24)
+Mean Absolute Percent Error:0.0834
+Root Mean Squared Error:8.426617329098141
+----------------------------------
+Result for (1, 0, 1) (2, 1, 1, 24)
+Mean Absolute Percent Error:0.0838
+Root Mean Squared Error:8.534331262741915
+----------------------------------
+Result for (1, 0, 1) (2, 1, 2, 24)
+Mean Absolute Percent Error:0.0841
+Root Mean Squared Error:8.794209828055275
+----------------------------------
+Result for (1, 0, 1) (2, 2, 0, 24)
+Mean Absolute Percent Error:0.2192
+Root Mean Squared Error:20.61204120645457
+----------------------------------
+Result for (1, 0, 1) (2, 2, 1, 24)
+Mean Absolute Percent Error:0.2192
+Root Mean Squared Error:20.615264448109386
+----------------------------------
+Result for (1, 0, 1) (2, 2, 2, 24)
+Mean Absolute Percent Error:0.2213
+Root Mean Squared Error:20.846783543351858
+----------------------------------
+Result for (1, 0, 2) (0, 0, 0, 24)
+Mean Absolute Percent Error:0.6398
+Root Mean Squared Error:65.90994207667512
+----------------------------------
+Result for (1, 0, 2) (0, 0, 1, 24)
+Mean Absolute Percent Error:0.5846
+Root Mean Squared Error:61.54985453853396
+----------------------------------
+Result for (1, 0, 2) (0, 0, 2, 24)
+Mean Absolute Percent Error:0.4529
+Root Mean Squared Error:50.10181805553445
+----------------------------------
+Result for (1, 0, 2) (0, 1, 0, 24)
+Mean Absolute Percent Error:0.1035
+Root Mean Squared Error:9.755913118201072
+----------------------------------
+Result for (1, 0, 2) (0, 1, 1, 24)
+Mean Absolute Percent Error:0.0847
+Root Mean Squared Error:8.132290474147457
+----------------------------------
+Result for (1, 0, 2) (0, 1, 2, 24)
+Mean Absolute Percent Error:0.084
+Root Mean Squared Error:8.764555735576913
+----------------------------------
+Result for (1, 0, 2) (0, 2, 0, 24)
+Mean Absolute Percent Error:0.2198
+Root Mean Squared Error:21.734046339540438
+----------------------------------
+Result for (1, 0, 2) (0, 2, 1, 24)
+Mean Absolute Percent Error:0.124
+Root Mean Squared Error:11.907580512047712
+----------------------------------
+Result for (1, 0, 2) (0, 2, 2, 24)
+Mean Absolute Percent Error:0.0992
+Root Mean Squared Error:9.981347570975077
+----------------------------------
+Result for (1, 0, 2) (1, 0, 0, 24)
+Mean Absolute Percent Error:0.2006
+Root Mean Squared Error:21.46227992757887
+----------------------------------
+Result for (1, 0, 2) (1, 0, 1, 24)
+Mean Absolute Percent Error:0.0881
+Root Mean Squared Error:8.591142188710336
+----------------------------------
+Result for (1, 0, 2) (1, 0, 2, 24)
+Mean Absolute Percent Error:0.0886
+Root Mean Squared Error:8.634700004362408
+----------------------------------
+Result for (1, 0, 2) (1, 1, 0, 24)
+Mean Absolute Percent Error:0.0833
+Root Mean Squared Error:8.409044861364022
+----------------------------------
+Result for (1, 0, 2) (1, 1, 1, 24)
+Mean Absolute Percent Error:0.0831
+Root Mean Squared Error:8.31907350627415
+----------------------------------
+Result for (1, 0, 2) (1, 1, 2, 24)
+Mean Absolute Percent Error:0.0849
+Root Mean Squared Error:8.963589383401514
+----------------------------------
+Result for (1, 0, 2) (1, 2, 0, 24)
+Mean Absolute Percent Error:0.1132
+Root Mean Squared Error:10.774435940442253
+----------------------------------
+Result for (1, 0, 2) (1, 2, 1, 24)
+Mean Absolute Percent Error:0.1408
+Root Mean Squared Error:13.027139574736399
+----------------------------------
+Result for (1, 0, 2) (1, 2, 2, 24)
+Mean Absolute Percent Error:0.1679
+Root Mean Squared Error:15.376290720183892
+----------------------------------
+Result for (1, 0, 2) (2, 0, 0, 24)
+Mean Absolute Percent Error:0.1004
+Root Mean Squared Error:10.137845051075777
+----------------------------------
+Result for (1, 0, 2) (2, 0, 1, 24)
+Mean Absolute Percent Error:0.0869
+Root Mean Squared Error:8.4686643377922
+----------------------------------
+Result for (1, 0, 2) (2, 0, 2, 24)
+Mean Absolute Percent Error:0.0869
+Root Mean Squared Error:8.440610618827481
+----------------------------------
+Result for (1, 0, 2) (2, 1, 0, 24)
+Mean Absolute Percent Error:0.0836
+Root Mean Squared Error:8.438678376500382
+----------------------------------
+Result for (1, 0, 2) (2, 1, 1, 24)
+Mean Absolute Percent Error:0.0838
+Root Mean Squared Error:8.545561236188433
+----------------------------------
+Result for (1, 0, 2) (2, 1, 2, 24)
+Mean Absolute Percent Error:0.0843
+Root Mean Squared Error:8.83926226055625
+----------------------------------
+Result for (1, 0, 2) (2, 2, 0, 24)
+Mean Absolute Percent Error:0.2195
+Root Mean Squared Error:20.67059169802824
+----------------------------------
+Result for (1, 0, 2) (2, 2, 1, 24)
+Mean Absolute Percent Error:0.22
+Root Mean Squared Error:20.730823949321714
+----------------------------------
+Result for (1, 0, 2) (2, 2, 2, 24)
+Mean Absolute Percent Error:0.2215
+Root Mean Squared Error:20.897253146436743
+----------------------------------
+Result for (1, 1, 0) (0, 0, 0, 24)
+Mean Absolute Percent Error:0.7005
+Root Mean Squared Error:71.21713090120046
+----------------------------------
+Result for (1, 1, 0) (0, 0, 1, 24)
+Mean Absolute Percent Error:0.4626
+Root Mean Squared Error:51.83548177392695
+----------------------------------
+Result for (1, 1, 0) (0, 0, 2, 24)
+Mean Absolute Percent Error:0.3686
+Root Mean Squared Error:41.90982678880837
+----------------------------------
+Result for (1, 1, 0) (0, 1, 0, 24)
+Mean Absolute Percent Error:0.1159
+Root Mean Squared Error:10.38889710765978
+----------------------------------
+Result for (1, 1, 0) (0, 1, 1, 24)
+Mean Absolute Percent Error:0.101
+Root Mean Squared Error:9.638555571952304
+----------------------------------
+Result for (1, 1, 0) (0, 1, 2, 24)
+Mean Absolute Percent Error:0.0776
+Root Mean Squared Error:8.277890226992726
+----------------------------------
+Result for (1, 1, 0) (0, 2, 0, 24)
+Mean Absolute Percent Error:0.3305
+Root Mean Squared Error:28.9896243995103
+----------------------------------
+Result for (1, 1, 0) (0, 2, 1, 24)
+Mean Absolute Percent Error:0.2067
+Root Mean Squared Error:17.30146552258761
+----------------------------------
+Result for (1, 1, 0) (0, 2, 2, 24)
+Mean Absolute Percent Error:0.1677
+Root Mean Squared Error:14.293914381529309
+----------------------------------
+Result for (1, 1, 0) (1, 0, 0, 24)
+Mean Absolute Percent Error:0.1547
+Root Mean Squared Error:13.533611752924307
+----------------------------------
+Result for (1, 1, 0) (1, 0, 1, 24)
+Mean Absolute Percent Error:0.1175
+Root Mean Squared Error:11.257248183322375
+----------------------------------
+Result for (1, 1, 0) (1, 0, 2, 24)
+Mean Absolute Percent Error:0.1143
+Root Mean Squared Error:11.07823933595641
+----------------------------------
+Result for (1, 1, 0) (1, 1, 0, 24)
+Mean Absolute Percent Error:0.0805
+Root Mean Squared Error:8.179664483130667
+----------------------------------
+Result for (1, 1, 0) (1, 1, 1, 24)
+Mean Absolute Percent Error:0.0891
+Root Mean Squared Error:8.774945398327798
+----------------------------------
+Result for (1, 1, 0) (1, 1, 2, 24)
+Mean Absolute Percent Error:0.0814
+Root Mean Squared Error:8.492474219137263
+----------------------------------
+Result for (1, 1, 0) (1, 2, 0, 24)
+Mean Absolute Percent Error:0.2019
+Root Mean Squared Error:17.314572032856475
+----------------------------------
+Result for (1, 1, 0) (1, 2, 1, 24)
+Mean Absolute Percent Error:0.1568
+Root Mean Squared Error:13.514582513770929
+----------------------------------
+Result for (1, 1, 0) (1, 2, 2, 24)
+Mean Absolute Percent Error:0.2466
+Root Mean Squared Error:21.672875371857224
+----------------------------------
+Result for (1, 1, 0) (2, 0, 0, 24)
+Mean Absolute Percent Error:0.0878
+Root Mean Squared Error:9.114379848865422
+----------------------------------
+Result for (1, 1, 0) (2, 0, 1, 24)
+Mean Absolute Percent Error:0.1178
+Root Mean Squared Error:11.350581356444609
+----------------------------------
+Result for (1, 1, 0) (2, 0, 2, 24)
+Mean Absolute Percent Error:0.117
+Root Mean Squared Error:11.240785064140411
+----------------------------------
+Result for (1, 1, 0) (2, 1, 0, 24)
+Mean Absolute Percent Error:0.0843
+Root Mean Squared Error:8.469399543553111
+----------------------------------
+Result for (1, 1, 0) (2, 1, 1, 24)
+Mean Absolute Percent Error:0.0839
+Root Mean Squared Error:8.362805196439043
+----------------------------------
+Result for (1, 1, 0) (2, 1, 2, 24)
+Mean Absolute Percent Error:0.0896
+Root Mean Squared Error:8.678185884132319
+----------------------------------
+Result for (1, 1, 0) (2, 2, 0, 24)
+Mean Absolute Percent Error:0.1322
+Root Mean Squared Error:11.875135198531956
+----------------------------------
+Result for (1, 1, 0) (2, 2, 1, 24)
+Mean Absolute Percent Error:0.3098
+Root Mean Squared Error:28.5218387273307
+----------------------------------
+Result for (1, 1, 0) (2, 2, 2, 24)
+Mean Absolute Percent Error:0.1321
+Root Mean Squared Error:11.838153150538664
+----------------------------------
+Result for (1, 1, 1) (0, 0, 0, 24)
+Mean Absolute Percent Error:0.6346
+Root Mean Squared Error:66.37730252759054
+----------------------------------
+Result for (1, 1, 1) (0, 0, 1, 24)
+Mean Absolute Percent Error:0.4934
+Root Mean Squared Error:54.30288995706788
+----------------------------------
+Result for (1, 1, 1) (0, 0, 2, 24)
+Mean Absolute Percent Error:0.4417
+Root Mean Squared Error:48.31115139670048
+----------------------------------
+Result for (1, 1, 1) (0, 1, 0, 24)
+Mean Absolute Percent Error:0.1043
+Root Mean Squared Error:9.78341826277516
+----------------------------------
+Result for (1, 1, 1) (0, 1, 1, 24)
+Mean Absolute Percent Error:0.0959
+Root Mean Squared Error:9.131318978954837
+----------------------------------
+Result for (1, 1, 1) (0, 1, 2, 24)
+Mean Absolute Percent Error:0.0831
+Root Mean Squared Error:8.643207060783112
+----------------------------------
+Result for (1, 1, 1) (0, 2, 0, 24)
+Mean Absolute Percent Error:0.2369
+Root Mean Squared Error:22.112895300951266
+----------------------------------
+Result for (1, 1, 1) (0, 2, 1, 24)
+Mean Absolute Percent Error:0.1424
+Root Mean Squared Error:12.638636024484494
+----------------------------------
+Result for (1, 1, 1) (0, 2, 2, 24)
+Mean Absolute Percent Error:0.1283
+Root Mean Squared Error:11.531024388755295
+----------------------------------
+Result for (1, 1, 1) (1, 0, 0, 24)
+Mean Absolute Percent Error:0.1621
+Root Mean Squared Error:14.43520369461713
+----------------------------------
+Result for (1, 1, 1) (1, 0, 1, 24)
+Mean Absolute Percent Error:0.0839
+Root Mean Squared Error:8.286246520862814
+----------------------------------
+Result for (1, 1, 1) (1, 0, 2, 24)
+Mean Absolute Percent Error:0.0834
+Root Mean Squared Error:9.117983641005733
+----------------------------------
+Result for (1, 1, 1) (1, 1, 0, 24)
+Mean Absolute Percent Error:0.0827
+Root Mean Squared Error:8.36430456183142
+----------------------------------
+Result for (1, 1, 1) (1, 1, 1, 24)
+Mean Absolute Percent Error:0.089
+Root Mean Squared Error:8.755589543584444
+----------------------------------
+Result for (1, 1, 1) (1, 1, 2, 24)
+Mean Absolute Percent Error:0.0818
+Root Mean Squared Error:8.721642350458914
+----------------------------------
+Result for (1, 1, 1) (1, 2, 0, 24)
+Mean Absolute Percent Error:0.1412
+Root Mean Squared Error:12.743403356872816
+----------------------------------
+Result for (1, 1, 1) (1, 2, 1, 24)
+Mean Absolute Percent Error:0.1618
+Root Mean Squared Error:14.605337419371777
+----------------------------------
+Result for (1, 1, 1) (1, 2, 2, 24)
+Mean Absolute Percent Error:0.1245
+Root Mean Squared Error:11.252989422018024
+----------------------------------
+Result for (1, 1, 1) (2, 0, 0, 24)
+Mean Absolute Percent Error:0.0863
+Root Mean Squared Error:8.947098037752292
+----------------------------------
+Result for (1, 1, 1) (2, 0, 1, 24)
+Mean Absolute Percent Error:0.094
+Root Mean Squared Error:9.083870238945192
+----------------------------------
+Result for (1, 1, 1) (2, 0, 2, 24)
+Mean Absolute Percent Error:0.0945
+Root Mean Squared Error:9.108432478442918
+----------------------------------
+Result for (1, 1, 1) (2, 1, 0, 24)
+Mean Absolute Percent Error:0.0868
+Root Mean Squared Error:8.694320387905837
+----------------------------------
+Result for (1, 1, 1) (2, 1, 1, 24)
+Mean Absolute Percent Error:0.0843
+Root Mean Squared Error:8.581534789033906
+----------------------------------
+Result for (1, 1, 1) (2, 1, 2, 24)
+Mean Absolute Percent Error:0.0815
+Root Mean Squared Error:8.49207601030922
+----------------------------------
+Result for (1, 1, 1) (2, 2, 0, 24)
+Mean Absolute Percent Error:0.1295
+Root Mean Squared Error:11.698250010011918
+----------------------------------
+Result for (1, 1, 1) (2, 2, 1, 24)
+Mean Absolute Percent Error:0.2138
+Root Mean Squared Error:20.086908420587996
+----------------------------------
+Result for (1, 1, 1) (2, 2, 2, 24)
+Mean Absolute Percent Error:0.2126
+Root Mean Squared Error:19.94006892773718
+----------------------------------
+Result for (1, 1, 2) (0, 0, 0, 24)
+Mean Absolute Percent Error:0.5279
+Root Mean Squared Error:58.55739182974371
+----------------------------------
+Result for (1, 1, 2) (0, 0, 1, 24)
+Mean Absolute Percent Error:0.4451
+Root Mean Squared Error:50.39047355614413
+----------------------------------
+Result for (1, 1, 2) (0, 0, 2, 24)
+Mean Absolute Percent Error:0.4273
+Root Mean Squared Error:47.05350838730378
+----------------------------------
+Result for (1, 1, 2) (0, 1, 0, 24)
+Mean Absolute Percent Error:0.107
+Root Mean Squared Error:9.971467562873404
+----------------------------------
+Result for (1, 1, 2) (0, 1, 1, 24)
+Mean Absolute Percent Error:0.0956
+Root Mean Squared Error:9.107053136233885
+----------------------------------
+Result for (1, 1, 2) (0, 1, 2, 24)
+Mean Absolute Percent Error:0.0828
+Root Mean Squared Error:8.642442035998258
+----------------------------------
+Result for (1, 1, 2) (0, 2, 0, 24)
+Mean Absolute Percent Error:0.2203
+Root Mean Squared Error:21.616408182805152
+----------------------------------
+Result for (1, 1, 2) (0, 2, 1, 24)
+Mean Absolute Percent Error:0.1524
+Root Mean Squared Error:13.32697764690763
+----------------------------------
+Result for (1, 1, 2) (0, 2, 2, 24)
+Mean Absolute Percent Error:0.1345
+Root Mean Squared Error:11.908304142655979
+----------------------------------
+Result for (1, 1, 2) (1, 0, 0, 24)
+Mean Absolute Percent Error:0.1646
+Root Mean Squared Error:14.935694548600281
+----------------------------------
+Result for (1, 1, 2) (1, 0, 1, 24)
+Mean Absolute Percent Error:0.0916
+Root Mean Squared Error:8.884425587130977
+----------------------------------
+Result for (1, 1, 2) (1, 0, 2, 24)
+Mean Absolute Percent Error:0.0823
+Root Mean Squared Error:8.845709766828852
+----------------------------------
+Result for (1, 1, 2) (1, 1, 0, 24)
+Mean Absolute Percent Error:0.0827
+Root Mean Squared Error:8.362611799678731
+----------------------------------
+Result for (1, 1, 2) (1, 1, 1, 24)
+Mean Absolute Percent Error:0.0892
+Root Mean Squared Error:8.76711864413651
+----------------------------------
+Result for (1, 1, 2) (1, 1, 2, 24)
+Mean Absolute Percent Error:0.0818
+Root Mean Squared Error:8.728221333881592
+----------------------------------
+Result for (1, 1, 2) (1, 2, 0, 24)
+Mean Absolute Percent Error:0.1435
+Root Mean Squared Error:12.865412674325263
+----------------------------------
+Result for (1, 1, 2) (1, 2, 1, 24)
+Mean Absolute Percent Error:0.1651
+Root Mean Squared Error:14.750150727330142
+----------------------------------
+Result for (1, 1, 2) (1, 2, 2, 24)
+Mean Absolute Percent Error:0.1835
+Root Mean Squared Error:16.503515420944773
+----------------------------------
+Result for (1, 1, 2) (2, 0, 0, 24)
+Mean Absolute Percent Error:0.0873
+Root Mean Squared Error:9.05678318966984
+----------------------------------
+Result for (1, 1, 2) (2, 0, 1, 24)
+Mean Absolute Percent Error:0.1173
+Root Mean Squared Error:11.29669525263462
+----------------------------------
+Result for (1, 1, 2) (2, 0, 2, 24)
+Mean Absolute Percent Error:0.1011
+Root Mean Squared Error:9.709713345775022
+----------------------------------
+Result for (1, 1, 2) (2, 1, 0, 24)
+Mean Absolute Percent Error:0.0868
+Root Mean Squared Error:8.693786520477465
+----------------------------------
+Result for (1, 1, 2) (2, 1, 1, 24)
+Mean Absolute Percent Error:0.0844
+Root Mean Squared Error:8.583438345619092
+----------------------------------
+Result for (1, 1, 2) (2, 1, 2, 24)
+Mean Absolute Percent Error:0.0817
+Root Mean Squared Error:8.50155295984072
+----------------------------------
+Result for (1, 1, 2) (2, 2, 0, 24)
+Mean Absolute Percent Error:0.2238
+Root Mean Squared Error:20.931016582917596
+----------------------------------
+Result for (1, 1, 2) (2, 2, 1, 24)
+Mean Absolute Percent Error:0.3136
+Root Mean Squared Error:29.131923071280116
+----------------------------------
+Result for (1, 1, 2) (2, 2, 2, 24)
+Mean Absolute Percent Error:0.3119
+Root Mean Squared Error:28.95943251115663
+----------------------------------
+Result for (1, 2, 0) (0, 0, 0, 24)
+Mean Absolute Percent Error:8.3343
+Root Mean Squared Error:764.2183134857261
+----------------------------------
+Result for (1, 2, 0) (0, 0, 1, 24)
+Mean Absolute Percent Error:7.0862
+Root Mean Squared Error:668.5131714747607
+----------------------------------
+Result for (1, 2, 0) (0, 0, 2, 24)
+Mean Absolute Percent Error:5.9817
+Root Mean Squared Error:570.7228293718438
+----------------------------------
+Result for (1, 2, 0) (0, 1, 0, 24)
+Mean Absolute Percent Error:0.3303
+Root Mean Squared Error:34.001846221829716
+----------------------------------
+Result for (1, 2, 0) (0, 1, 1, 24)
+Mean Absolute Percent Error:1.1077
+Root Mean Squared Error:100.43538875440106
+----------------------------------
+Result for (1, 2, 0) (0, 1, 2, 24)
+Mean Absolute Percent Error:1.4734
+Root Mean Squared Error:135.90188212231163
+----------------------------------
+Result for (1, 2, 0) (0, 2, 0, 24)
+Mean Absolute Percent Error:3.2561
+Root Mean Squared Error:337.09243518429435
+----------------------------------
+Result for (1, 2, 0) (0, 2, 1, 24)
+Mean Absolute Percent Error:1.3415
+Root Mean Squared Error:131.35683560525692
+----------------------------------
+Result for (1, 2, 0) (0, 2, 2, 24)
+Mean Absolute Percent Error:1.1137
+Root Mean Squared Error:108.78651313414609
+----------------------------------
+Result for (1, 2, 0) (1, 0, 0, 24)
+Mean Absolute Percent Error:4.9536
+Root Mean Squared Error:481.65784549882585
+----------------------------------
+Result for (1, 2, 0) (1, 0, 1, 24)
+Mean Absolute Percent Error:2.2644
+Root Mean Squared Error:206.80556354846567
+----------------------------------
+Result for (1, 2, 0) (1, 0, 2, 24)
+Mean Absolute Percent Error:2.1367
+Root Mean Squared Error:191.64874046768398
+----------------------------------
+Result for (1, 2, 0) (1, 1, 0, 24)
+Mean Absolute Percent Error:1.4841
+Root Mean Squared Error:144.34354965059748
+----------------------------------
+Result for (1, 2, 0) (1, 1, 1, 24)
+Mean Absolute Percent Error:1.2502
+Root Mean Squared Error:112.05835696565525
+----------------------------------
+Result for (1, 2, 0) (1, 1, 2, 24)
+Mean Absolute Percent Error:1.8096
+Root Mean Squared Error:173.69185783371603
+----------------------------------
+Result for (1, 2, 0) (1, 2, 0, 24)
+Mean Absolute Percent Error:0.4284
+Root Mean Squared Error:39.395485014260814
+----------------------------------
+Result for (1, 2, 0) (1, 2, 1, 24)
+Mean Absolute Percent Error:0.9655
+Root Mean Squared Error:95.50236666334425
+----------------------------------
+Result for (1, 2, 0) (1, 2, 2, 24)
+Mean Absolute Percent Error:1.0703
+Root Mean Squared Error:105.8673192569063
+----------------------------------
+Result for (1, 2, 0) (2, 0, 0, 24)
+Mean Absolute Percent Error:3.395
+Root Mean Squared Error:326.89878090205025
+----------------------------------
+Result for (1, 2, 0) (2, 0, 1, 24)
+Mean Absolute Percent Error:2.2014
+Root Mean Squared Error:198.27474278845017
+----------------------------------
+Result for (1, 2, 0) (2, 0, 2, 24)
+Mean Absolute Percent Error:2.3392
+Root Mean Squared Error:213.7488634461561
+----------------------------------
+Result for (1, 2, 0) (2, 1, 0, 24)
+Mean Absolute Percent Error:1.8372
+Root Mean Squared Error:172.15035872079767
+----------------------------------
+Result for (1, 2, 0) (2, 1, 1, 24)
+Mean Absolute Percent Error:2.2236
+Root Mean Squared Error:210.0095908620123
+----------------------------------
+Result for (1, 2, 0) (2, 1, 2, 24)
+Mean Absolute Percent Error:2.5453
+Root Mean Squared Error:243.02496668039845
+----------------------------------
+Result for (1, 2, 0) (2, 2, 0, 24)
+Mean Absolute Percent Error:1.4593
+Root Mean Squared Error:141.76043919613366
+----------------------------------
+Result for (1, 2, 0) (2, 2, 1, 24)
+Mean Absolute Percent Error:1.4227
+Root Mean Squared Error:138.52737216511244
+----------------------------------
+Result for (1, 2, 0) (2, 2, 2, 24)
+Mean Absolute Percent Error:1.437
+Root Mean Squared Error:139.83382568011692
+----------------------------------
+Result for (1, 2, 1) (0, 0, 0, 24)
+Mean Absolute Percent Error:1.2208
+Root Mean Squared Error:114.02505355762632
+----------------------------------
+Result for (1, 2, 1) (0, 0, 1, 24)
+Mean Absolute Percent Error:0.7288
+Root Mean Squared Error:74.53648222506676
+----------------------------------
+Result for (1, 2, 1) (0, 0, 2, 24)
+Mean Absolute Percent Error:0.5152
+Root Mean Squared Error:55.33111170753907
+----------------------------------
+Result for (1, 2, 1) (0, 1, 0, 24)
+Mean Absolute Percent Error:0.1587
+Root Mean Squared Error:13.623327676623031
+----------------------------------
+Result for (1, 2, 1) (0, 1, 1, 24)
+Mean Absolute Percent Error:0.0991
+Root Mean Squared Error:9.245246409417993
+----------------------------------
+Result for (1, 2, 1) (0, 1, 2, 24)
+Mean Absolute Percent Error:0.1098
+Root Mean Squared Error:10.086895937565226
+----------------------------------
+Result for (1, 2, 1) (0, 2, 0, 24)
+Mean Absolute Percent Error:0.3916
+Root Mean Squared Error:34.89475938807518
+----------------------------------
+Result for (1, 2, 1) (0, 2, 1, 24)
+Mean Absolute Percent Error:0.3403
+Root Mean Squared Error:29.962583100039815
+----------------------------------
+Result for (1, 2, 1) (0, 2, 2, 24)
+Mean Absolute Percent Error:0.3204
+Root Mean Squared Error:28.90110941170549
+----------------------------------
+Result for (1, 2, 1) (1, 0, 0, 24)
+Mean Absolute Percent Error:0.1542
+Root Mean Squared Error:13.6949124809494
+----------------------------------
+Result for (1, 2, 1) (1, 0, 1, 24)
+Mean Absolute Percent Error:0.1009
+Root Mean Squared Error:9.800251315777588
+----------------------------------
+Result for (1, 2, 1) (1, 0, 2, 24)
+Mean Absolute Percent Error:0.106
+Root Mean Squared Error:10.342150510667478
+----------------------------------
+Result for (1, 2, 1) (1, 1, 0, 24)
+Mean Absolute Percent Error:0.1102
+Root Mean Squared Error:10.011885326393337
+----------------------------------
+Result for (1, 2, 1) (1, 1, 1, 24)
+Mean Absolute Percent Error:0.0984
+Root Mean Squared Error:9.337256105168727
+----------------------------------
+Result for (1, 2, 1) (1, 1, 2, 24)
+Mean Absolute Percent Error:0.115
+Root Mean Squared Error:10.514082029306566
+----------------------------------
+Result for (1, 2, 1) (1, 2, 0, 24)
+Mean Absolute Percent Error:0.3107
+Root Mean Squared Error:27.689299977185044
+----------------------------------
+Result for (1, 2, 1) (1, 2, 1, 24)
+Mean Absolute Percent Error:0.3094
+Root Mean Squared Error:28.323046948967733
+----------------------------------
+Result for (1, 2, 1) (1, 2, 2, 24)
+Mean Absolute Percent Error:0.3101
+Root Mean Squared Error:28.590421185258055
+----------------------------------
+Result for (1, 2, 1) (2, 0, 0, 24)
+Mean Absolute Percent Error:0.0886
+Root Mean Squared Error:9.169673346977252
+----------------------------------
+Result for (1, 2, 1) (2, 0, 1, 24)
+Mean Absolute Percent Error:0.0985
+Root Mean Squared Error:9.600088330191628
+----------------------------------
+Result for (1, 2, 1) (2, 0, 2, 24)
+Mean Absolute Percent Error:0.095
+Root Mean Squared Error:9.189500630658285
+----------------------------------
+Result for (1, 2, 1) (2, 1, 0, 24)
+Mean Absolute Percent Error:0.1032
+Root Mean Squared Error:9.645916354183193
+----------------------------------
+Result for (1, 2, 1) (2, 1, 1, 24)
+Mean Absolute Percent Error:0.1104
+Root Mean Squared Error:10.070566837728366
+----------------------------------
+Result for (1, 2, 1) (2, 1, 2, 24)
+Mean Absolute Percent Error:0.1164
+Root Mean Squared Error:10.444446213939967
+----------------------------------
+Result for (1, 2, 1) (2, 2, 0, 24)
+Mean Absolute Percent Error:0.3127
+Root Mean Squared Error:28.871896501684777
+----------------------------------
+Result for (1, 2, 1) (2, 2, 1, 24)
+Mean Absolute Percent Error:0.3119
+Root Mean Squared Error:28.814964635685893
+----------------------------------
+Result for (1, 2, 1) (2, 2, 2, 24)
+Mean Absolute Percent Error:0.3109
+Root Mean Squared Error:28.73793410994121
+----------------------------------
+Result for (1, 2, 2) (0, 0, 0, 24)
+Mean Absolute Percent Error:1.1197
+Root Mean Squared Error:105.94839379044478
+----------------------------------
+Result for (1, 2, 2) (0, 0, 1, 24)
+Mean Absolute Percent Error:0.7971
+Root Mean Squared Error:80.33157465051997
+----------------------------------
+Result for (1, 2, 2) (0, 0, 2, 24)
+Mean Absolute Percent Error:0.6541
+Root Mean Squared Error:67.59700323705447
+----------------------------------
+Result for (1, 2, 2) (0, 1, 0, 24)
+Mean Absolute Percent Error:0.0994
+Root Mean Squared Error:9.541553140779902
+----------------------------------
+Result for (1, 2, 2) (0, 1, 1, 24)
+Mean Absolute Percent Error:0.0812
+Root Mean Squared Error:7.935679649023178
+----------------------------------
+Result for (1, 2, 2) (0, 1, 2, 24)
+Mean Absolute Percent Error:0.0892
+Root Mean Squared Error:8.765402036418433
+----------------------------------
+Result for (1, 2, 2) (0, 2, 0, 24)
+Mean Absolute Percent Error:0.3909
+Root Mean Squared Error:34.48900017466815
+----------------------------------
+Result for (1, 2, 2) (0, 2, 1, 24)
+Mean Absolute Percent Error:0.177
+Root Mean Squared Error:17.850600650311137
+----------------------------------
+Result for (1, 2, 2) (0, 2, 2, 24)
+Mean Absolute Percent Error:0.1731
+Root Mean Squared Error:18.571398003001924
+----------------------------------
+Result for (1, 2, 2) (1, 0, 0, 24)
+Mean Absolute Percent Error:0.1561
+Root Mean Squared Error:14.016598108996178
+----------------------------------
+Result for (1, 2, 2) (1, 0, 1, 24)
+Mean Absolute Percent Error:0.1197
+Root Mean Squared Error:11.483855998618834
+----------------------------------
+Result for (1, 2, 2) (1, 0, 2, 24)
+Mean Absolute Percent Error:0.1233
+Root Mean Squared Error:11.847622014870957
+----------------------------------
+Result for (1, 2, 2) (1, 1, 0, 24)
+Mean Absolute Percent Error:0.0936
+Root Mean Squared Error:8.88024760050856
+----------------------------------
+Result for (1, 2, 2) (1, 1, 1, 24)
+Mean Absolute Percent Error:0.1104
+Root Mean Squared Error:10.609099453454881
+----------------------------------
+Result for (1, 2, 2) (1, 1, 2, 24)
+Mean Absolute Percent Error:0.0983
+Root Mean Squared Error:9.374023264872887
+----------------------------------
+Result for (1, 2, 2) (1, 2, 0, 24)
+Mean Absolute Percent Error:0.1464
+Root Mean Squared Error:14.435091653474624
+----------------------------------
+Result for (1, 2, 2) (1, 2, 1, 24)
+Mean Absolute Percent Error:0.1543
+Root Mean Squared Error:16.303031384867214
+----------------------------------
+Result for (1, 2, 2) (1, 2, 2, 24)
+Mean Absolute Percent Error:0.1708
+Root Mean Squared Error:18.398840112648145
+----------------------------------
+Result for (1, 2, 2) (2, 0, 0, 24)
+Mean Absolute Percent Error:0.0956
+Root Mean Squared Error:9.880993675486446
+----------------------------------
+Result for (1, 2, 2) (2, 0, 1, 24)
+Mean Absolute Percent Error:0.1205
+Root Mean Squared Error:11.649664123760267
+----------------------------------
+Result for (1, 2, 2) (2, 0, 2, 24)
+Mean Absolute Percent Error:0.1225
+Root Mean Squared Error:11.737786227512625
+----------------------------------
+Result for (1, 2, 2) (2, 1, 0, 24)
+Mean Absolute Percent Error:0.0777
+Root Mean Squared Error:8.098156998112378
+----------------------------------
+Result for (1, 2, 2) (2, 1, 1, 24)
+Mean Absolute Percent Error:0.0887
+Root Mean Squared Error:8.626276645423832
+----------------------------------
+Result for (1, 2, 2) (2, 1, 2, 24)
+Mean Absolute Percent Error:0.093
+Root Mean Squared Error:8.893293248784698
+----------------------------------
+Result for (1, 2, 2) (2, 2, 0, 24)
+Mean Absolute Percent Error:0.2261
+Root Mean Squared Error:24.67705653137686
+----------------------------------
+Result for (1, 2, 2) (2, 2, 1, 24)
+Mean Absolute Percent Error:0.2262
+Root Mean Squared Error:24.673053940163143
+----------------------------------
+Result for (1, 2, 2) (2, 2, 2, 24)
+Mean Absolute Percent Error:0.1926
+Root Mean Squared Error:21.21735291352826
+----------------------------------
+Result for (2, 0, 0) (0, 0, 0, 24)
+Mean Absolute Percent Error:0.8989
+Root Mean Squared Error:86.22791337554887
+----------------------------------
+Result for (2, 0, 0) (0, 0, 1, 24)
+Mean Absolute Percent Error:0.7223
+Root Mean Squared Error:73.11353439939127
+----------------------------------
+Result for (2, 0, 0) (0, 0, 2, 24)
+Mean Absolute Percent Error:0.5071
+Root Mean Squared Error:54.9282145248603
+----------------------------------
+Result for (2, 0, 0) (0, 1, 0, 24)
+Mean Absolute Percent Error:0.1032
+Root Mean Squared Error:9.727359032977763
+----------------------------------
+Result for (2, 0, 0) (0, 1, 1, 24)
+Mean Absolute Percent Error:0.0848
+Root Mean Squared Error:8.150947709934618
+----------------------------------
+Result for (2, 0, 0) (0, 1, 2, 24)
+Mean Absolute Percent Error:0.0838
+Root Mean Squared Error:8.756702666658205
+----------------------------------
+Result for (2, 0, 0) (0, 2, 0, 24)
+Mean Absolute Percent Error:0.2183
+Root Mean Squared Error:21.62461316785754
+----------------------------------
+Result for (2, 0, 0) (0, 2, 1, 24)
+Mean Absolute Percent Error:0.1231
+Root Mean Squared Error:11.801778182520792
+----------------------------------
+Result for (2, 0, 0) (0, 2, 2, 24)
+Mean Absolute Percent Error:0.0983
+Root Mean Squared Error:9.917717357740967
+----------------------------------
+Result for (2, 0, 0) (1, 0, 0, 24)
+Mean Absolute Percent Error:0.195
+Root Mean Squared Error:20.774057367588092
+----------------------------------
+Result for (2, 0, 0) (1, 0, 1, 24)
+Mean Absolute Percent Error:0.0888
+Root Mean Squared Error:8.656753784269629
+----------------------------------
+Result for (2, 0, 0) (1, 0, 2, 24)
+Mean Absolute Percent Error:0.0882
+Root Mean Squared Error:8.58998884190074
+----------------------------------
+Result for (2, 0, 0) (1, 1, 0, 24)
+Mean Absolute Percent Error:0.0831
+Root Mean Squared Error:8.405783993950443
+----------------------------------
+Result for (2, 0, 0) (1, 1, 1, 24)
+Mean Absolute Percent Error:0.0832
+Root Mean Squared Error:8.32363343189954
+----------------------------------
+Result for (2, 0, 0) (1, 1, 2, 24)
+Mean Absolute Percent Error:0.0847
+Root Mean Squared Error:8.936238573629467
+----------------------------------
+Result for (2, 0, 0) (1, 2, 0, 24)
+Mean Absolute Percent Error:0.1099
+Root Mean Squared Error:10.645799208926602
+----------------------------------
+Result for (2, 0, 0) (1, 2, 1, 24)
+Mean Absolute Percent Error:0.1366
+Root Mean Squared Error:12.841690561173623
+----------------------------------
+Result for (2, 0, 0) (1, 2, 2, 24)
+Mean Absolute Percent Error:0.1635
+Root Mean Squared Error:15.170312772934292
+----------------------------------
+Result for (2, 0, 0) (2, 0, 0, 24)
+Mean Absolute Percent Error:0.1032
+Root Mean Squared Error:10.447733786571588
+----------------------------------
+Result for (2, 0, 0) (2, 0, 1, 24)
+Mean Absolute Percent Error:0.0879
+Root Mean Squared Error:8.590993178712496
+----------------------------------
+Result for (2, 0, 0) (2, 0, 2, 24)
+Mean Absolute Percent Error:0.0907
+Root Mean Squared Error:8.817568698293062
+----------------------------------
+Result for (2, 0, 0) (2, 1, 0, 24)
+Mean Absolute Percent Error:0.0836
+Root Mean Squared Error:8.441340535646237
+----------------------------------
+Result for (2, 0, 0) (2, 1, 1, 24)
+Mean Absolute Percent Error:0.084
+Root Mean Squared Error:8.56107123583366
+----------------------------------
+Result for (2, 0, 0) (2, 1, 2, 24)
+Mean Absolute Percent Error:0.0841
+Root Mean Squared Error:8.804577552246851
+----------------------------------
+Result for (2, 0, 0) (2, 2, 0, 24)
+Mean Absolute Percent Error:0.2153
+Root Mean Squared Error:20.421745229737418
+----------------------------------
+Result for (2, 0, 0) (2, 2, 1, 24)
+Mean Absolute Percent Error:0.2167
+Root Mean Squared Error:20.574519597502686
+----------------------------------
+Result for (2, 0, 0) (2, 2, 2, 24)
+Mean Absolute Percent Error:0.2211
+Root Mean Squared Error:21.062404284895074
+----------------------------------
+Result for (2, 0, 1) (0, 0, 0, 24)
+Mean Absolute Percent Error:0.8724
+Root Mean Squared Error:84.36555024020956
+----------------------------------
+Result for (2, 0, 1) (0, 0, 1, 24)
+Mean Absolute Percent Error:0.7519
+Root Mean Squared Error:75.37247012795741
+----------------------------------
+Result for (2, 0, 1) (0, 0, 2, 24)
+Mean Absolute Percent Error:0.5645
+Root Mean Squared Error:59.88647344037336
+----------------------------------
+Result for (2, 0, 1) (0, 1, 0, 24)
+Mean Absolute Percent Error:0.1034
+Root Mean Squared Error:9.748679930931083
+----------------------------------
+Result for (2, 0, 1) (0, 1, 1, 24)
+Mean Absolute Percent Error:0.0846
+Root Mean Squared Error:8.13251276789933
+----------------------------------
+Result for (2, 0, 1) (0, 1, 2, 24)
+Mean Absolute Percent Error:0.0839
+Root Mean Squared Error:8.774134216502258
+----------------------------------
+Result for (2, 0, 1) (0, 2, 0, 24)
+Mean Absolute Percent Error:0.2176
+Root Mean Squared Error:21.64831995316439
+----------------------------------
+Result for (2, 0, 1) (0, 2, 1, 24)
+Mean Absolute Percent Error:0.1238
+Root Mean Squared Error:11.893753549188853
+----------------------------------
+Result for (2, 0, 1) (0, 2, 2, 24)
+Mean Absolute Percent Error:0.099
+Root Mean Squared Error:9.971342096309797
+----------------------------------
+Result for (2, 0, 1) (1, 0, 0, 24)
+Mean Absolute Percent Error:0.1379
+Root Mean Squared Error:11.64060306321677
+----------------------------------
+Result for (2, 0, 1) (1, 0, 1, 24)
+Mean Absolute Percent Error:0.0879
+Root Mean Squared Error:8.548429393673876
+----------------------------------
+Result for (2, 0, 1) (1, 0, 2, 24)
+Mean Absolute Percent Error:1.0
+Root Mean Squared Error:89.89641926786128
+----------------------------------
+Result for (2, 0, 1) (1, 1, 0, 24)
+Mean Absolute Percent Error:0.0832
+Root Mean Squared Error:8.403292931495754
+----------------------------------
+Result for (2, 0, 1) (1, 1, 1, 24)
+Mean Absolute Percent Error:0.083
+Root Mean Squared Error:8.320226274107227
+----------------------------------
+Result for (2, 0, 1) (1, 1, 2, 24)
+Mean Absolute Percent Error:0.0848
+Root Mean Squared Error:8.956238955133115
+----------------------------------
+Result for (2, 0, 1) (1, 2, 0, 24)
+Mean Absolute Percent Error:0.113
+Root Mean Squared Error:10.756169825468522
+----------------------------------
+Result for (2, 0, 1) (1, 2, 1, 24)
+Mean Absolute Percent Error:0.1401
+Root Mean Squared Error:12.96469093920461
+----------------------------------
+Result for (2, 0, 1) (1, 2, 2, 24)
+Mean Absolute Percent Error:0.1681
+Root Mean Squared Error:15.38347219238081
+----------------------------------
+Result for (2, 0, 1) (2, 0, 1, 24)
+Mean Absolute Percent Error:0.0862
+Root Mean Squared Error:8.363845747014064
+----------------------------------
+Result for (2, 0, 1) (2, 0, 2, 24)
+Mean Absolute Percent Error:0.0869
+Root Mean Squared Error:8.432349550979593
+----------------------------------
+Result for (2, 0, 1) (2, 1, 0, 24)
+Mean Absolute Percent Error:0.0834
+Root Mean Squared Error:8.433063795598601
+----------------------------------
+Result for (2, 0, 1) (2, 1, 1, 24)
+Mean Absolute Percent Error:0.0838
+Root Mean Squared Error:8.542013445919647
+----------------------------------
+Result for (2, 0, 1) (2, 1, 2, 24)
+Mean Absolute Percent Error:0.0843
+Root Mean Squared Error:8.83442703879796
+----------------------------------
+Result for (2, 0, 1) (2, 2, 0, 24)
+Mean Absolute Percent Error:0.2194
+Root Mean Squared Error:20.64695195951138
+----------------------------------
+Result for (2, 0, 1) (2, 2, 1, 24)
+Mean Absolute Percent Error:0.2208
+Root Mean Squared Error:20.813225471067735
+----------------------------------
+Result for (2, 0, 1) (2, 2, 2, 24)
+Mean Absolute Percent Error:0.1472
+Root Mean Squared Error:13.586097347283284
+----------------------------------
+Result for (2, 0, 2) (0, 0, 0, 24)
+Mean Absolute Percent Error:0.8171
+Root Mean Squared Error:80.53120949803645
+----------------------------------
+Result for (2, 0, 2) (0, 0, 1, 24)
+Mean Absolute Percent Error:0.724
+Root Mean Squared Error:73.2587489952069
+----------------------------------
+Result for (2, 0, 2) (0, 0, 2, 24)
+Mean Absolute Percent Error:0.5577
+Root Mean Squared Error:59.32609375930851
+----------------------------------
+Result for (2, 0, 2) (0, 1, 0, 24)
+Mean Absolute Percent Error:0.1035
+Root Mean Squared Error:9.769582386972063
+----------------------------------
+Result for (2, 0, 2) (0, 1, 1, 24)
+Mean Absolute Percent Error:0.0848
+Root Mean Squared Error:8.13372581614345
+----------------------------------
+Result for (2, 0, 2) (0, 1, 2, 24)
+Mean Absolute Percent Error:0.0841
+Root Mean Squared Error:8.753308704422736
+----------------------------------
+Result for (2, 0, 2) (0, 2, 0, 24)
+Mean Absolute Percent Error:0.2011
+Root Mean Squared Error:19.844548692224613
+----------------------------------
+Result for (2, 0, 2) (0, 2, 1, 24)
+Mean Absolute Percent Error:0.1176
+Root Mean Squared Error:11.360613842676164
+----------------------------------
+Result for (2, 0, 2) (0, 2, 2, 24)
+Mean Absolute Percent Error:0.0946
+Root Mean Squared Error:9.647042493884545
+----------------------------------
+Result for (2, 0, 2) (1, 0, 0, 24)
+Mean Absolute Percent Error:0.2239
+Root Mean Squared Error:24.143779288663964
+----------------------------------
+Result for (2, 0, 2) (1, 0, 1, 24)
+Mean Absolute Percent Error:0.0888
+Root Mean Squared Error:8.667430852943708
+----------------------------------
+Result for (2, 0, 2) (1, 0, 2, 24)
+Mean Absolute Percent Error:0.0878
+Root Mean Squared Error:8.551244058591374
+----------------------------------
+Result for (2, 0, 2) (1, 1, 0, 24)
+Mean Absolute Percent Error:0.0834
+Root Mean Squared Error:8.40876221529931
+----------------------------------
+Result for (2, 0, 2) (1, 1, 1, 24)
+Mean Absolute Percent Error:0.0832
+Root Mean Squared Error:8.315293226213255
+----------------------------------
+Result for (2, 0, 2) (1, 1, 2, 24)
+Mean Absolute Percent Error:0.085
+Root Mean Squared Error:8.959666310467592
+----------------------------------
+Result for (2, 0, 2) (1, 2, 0, 24)
+Mean Absolute Percent Error:0.103
+Root Mean Squared Error:10.094158631671846
+----------------------------------
+Result for (2, 0, 2) (1, 2, 1, 24)
+Mean Absolute Percent Error:0.1277
+Root Mean Squared Error:12.066276117238841
+----------------------------------
+Result for (2, 0, 2) (1, 2, 2, 24)
+Mean Absolute Percent Error:0.16
+Root Mean Squared Error:14.728427748100623
+----------------------------------
+Result for (2, 0, 2) (2, 0, 0, 24)
+Mean Absolute Percent Error:0.1041
+Root Mean Squared Error:10.531031216687715
+----------------------------------
+Result for (2, 0, 2) (2, 0, 1, 24)
+Mean Absolute Percent Error:0.0871
+Root Mean Squared Error:8.495051769093038
+----------------------------------
+Result for (2, 0, 2) (2, 0, 2, 24)
+Mean Absolute Percent Error:0.0871
+Root Mean Squared Error:8.465146157439657
+----------------------------------
+Result for (2, 0, 2) (2, 1, 0, 24)
+Mean Absolute Percent Error:0.0836
+Root Mean Squared Error:8.437886195517969
+----------------------------------
+Result for (2, 0, 2) (2, 1, 1, 24)
+Mean Absolute Percent Error:0.0838
+Root Mean Squared Error:8.536714829486861
+----------------------------------
+Result for (2, 0, 2) (2, 1, 2, 24)
+Mean Absolute Percent Error:0.0844
+Root Mean Squared Error:8.85087574530276
+----------------------------------
+Result for (2, 0, 2) (2, 2, 0, 24)
+Mean Absolute Percent Error:0.2125
+Root Mean Squared Error:19.947390426040503
+----------------------------------
+Result for (2, 0, 2) (2, 2, 1, 24)
+Mean Absolute Percent Error:0.2138
+Root Mean Squared Error:20.100594941759372
+----------------------------------
+Result for (2, 0, 2) (2, 2, 2, 24)
+Mean Absolute Percent Error:0.2186
+Root Mean Squared Error:20.655369498982854
+----------------------------------
+Result for (2, 1, 0) (0, 0, 0, 24)
+Mean Absolute Percent Error:0.5995
+Root Mean Squared Error:63.83615282281594
+----------------------------------
+Result for (2, 1, 0) (0, 0, 1, 24)
+Mean Absolute Percent Error:0.5033
+Root Mean Squared Error:55.10066670406576
+----------------------------------
+Result for (2, 1, 0) (0, 0, 2, 24)
+Mean Absolute Percent Error:0.4493
+Root Mean Squared Error:48.99149608550467
+----------------------------------
+Result for (2, 1, 0) (0, 1, 0, 24)
+Mean Absolute Percent Error:0.1135
+Root Mean Squared Error:10.256418998347174
+----------------------------------
+Result for (2, 1, 0) (0, 1, 1, 24)
+Mean Absolute Percent Error:0.0975
+Root Mean Squared Error:9.227892825524636
+----------------------------------
+Result for (2, 1, 0) (0, 1, 2, 24)
+Mean Absolute Percent Error:0.0788
+Root Mean Squared Error:8.311649384431892
+----------------------------------
+Result for (2, 1, 0) (0, 2, 0, 24)
+Mean Absolute Percent Error:0.2974
+Root Mean Squared Error:26.333492410959437
+----------------------------------
+Result for (2, 1, 0) (0, 2, 1, 24)
+Mean Absolute Percent Error:0.1916
+Root Mean Squared Error:16.228533761034235
+----------------------------------
+Result for (2, 1, 0) (0, 2, 2, 24)
+Mean Absolute Percent Error:0.162
+Root Mean Squared Error:13.892200995815843
+----------------------------------
+Result for (2, 1, 0) (1, 0, 0, 24)
+Mean Absolute Percent Error:0.1605
+Root Mean Squared Error:14.221082298072249
+----------------------------------
+Result for (2, 1, 0) (1, 0, 1, 24)
+Mean Absolute Percent Error:0.1126
+Root Mean Squared Error:10.790427902450112
+----------------------------------
+Result for (2, 1, 0) (1, 0, 2, 24)
+Mean Absolute Percent Error:0.1083
+Root Mean Squared Error:10.544860788394216
+----------------------------------
+Result for (2, 1, 0) (1, 1, 0, 24)
+Mean Absolute Percent Error:0.0804
+Root Mean Squared Error:8.191074799769428
+----------------------------------
+Result for (2, 1, 0) (1, 1, 1, 24)
+Mean Absolute Percent Error:0.0865
+Root Mean Squared Error:8.500746641205623
+----------------------------------
+Result for (2, 1, 0) (1, 1, 2, 24)
+Mean Absolute Percent Error:0.0833
+Root Mean Squared Error:8.54492321071643
+----------------------------------
+Result for (2, 1, 0) (1, 2, 0, 24)
+Mean Absolute Percent Error:0.1895
+Root Mean Squared Error:16.361941217344473
+----------------------------------
+Result for (2, 1, 0) (1, 2, 1, 24)
+Mean Absolute Percent Error:0.223
+Root Mean Squared Error:19.42618688191759
+----------------------------------
+Result for (2, 1, 0) (1, 2, 2, 24)
+Mean Absolute Percent Error:0.2496
+Root Mean Squared Error:22.039265045261047
+----------------------------------
+Result for (2, 1, 0) (2, 0, 0, 24)
+Mean Absolute Percent Error:0.0849
+Root Mean Squared Error:8.777311103592695
+----------------------------------
+Result for (2, 1, 0) (2, 0, 1, 24)
+Mean Absolute Percent Error:0.1129
+Root Mean Squared Error:10.881156966539475
+----------------------------------
+Result for (2, 1, 0) (2, 0, 2, 24)
+Mean Absolute Percent Error:0.1121
+Root Mean Squared Error:10.765448217758953
+----------------------------------
+Result for (2, 1, 0) (2, 1, 0, 24)
+Mean Absolute Percent Error:0.0816
+Root Mean Squared Error:8.2653137771659
+----------------------------------
+Result for (2, 1, 0) (2, 1, 1, 24)
+Mean Absolute Percent Error:0.0825
+Root Mean Squared Error:8.261854958152849
+----------------------------------
+Result for (2, 1, 0) (2, 1, 2, 24)
+Mean Absolute Percent Error:0.0912
+Root Mean Squared Error:8.716475023155288
+----------------------------------
+Result for (2, 1, 0) (2, 2, 0, 24)
+Mean Absolute Percent Error:0.3153
+Root Mean Squared Error:29.249021124856537
+----------------------------------
+Result for (2, 1, 0) (2, 2, 1, 24)
+Mean Absolute Percent Error:0.3172
+Root Mean Squared Error:29.455325984660625
+----------------------------------
+Result for (2, 1, 0) (2, 2, 2, 24)
+Mean Absolute Percent Error:0.317
+Root Mean Squared Error:29.43943697690314
+----------------------------------
+Result for (2, 1, 1) (0, 0, 0, 24)
+Mean Absolute Percent Error:0.3316
+Root Mean Squared Error:25.05858968629866
+----------------------------------
+Result for (2, 1, 1) (0, 0, 1, 24)
+Mean Absolute Percent Error:0.4929
+Root Mean Squared Error:54.24640959777599
+----------------------------------
+Result for (2, 1, 1) (0, 0, 2, 24)
+Mean Absolute Percent Error:0.4187
+Root Mean Squared Error:46.27166228634094
+----------------------------------
+Result for (2, 1, 1) (0, 1, 0, 24)
+Mean Absolute Percent Error:0.1044
+Root Mean Squared Error:9.79187445526545
+----------------------------------
+Result for (2, 1, 1) (0, 1, 1, 24)
+Mean Absolute Percent Error:0.0958
+Root Mean Squared Error:9.125612165695802
+----------------------------------
+Result for (2, 1, 1) (0, 1, 2, 24)
+Mean Absolute Percent Error:0.083
+Root Mean Squared Error:8.643060496135822
+----------------------------------
+Result for (2, 1, 1) (0, 2, 0, 24)
+Mean Absolute Percent Error:0.2403
+Root Mean Squared Error:22.25184329550732
+----------------------------------
+Result for (2, 1, 1) (0, 2, 1, 24)
+Mean Absolute Percent Error:0.1504
+Root Mean Squared Error:13.211483651383814
+----------------------------------
+Result for (2, 1, 1) (0, 2, 2, 24)
+Mean Absolute Percent Error:0.1328
+Root Mean Squared Error:11.808126950717183
+----------------------------------
+Result for (2, 1, 1) (1, 0, 0, 24)
+Mean Absolute Percent Error:0.1641
+Root Mean Squared Error:14.814820643141143
+----------------------------------
+Result for (2, 1, 1) (1, 0, 1, 24)
+Mean Absolute Percent Error:0.0949
+Root Mean Squared Error:9.169529464005484
+----------------------------------
+Result for (2, 1, 1) (1, 0, 2, 24)
+Mean Absolute Percent Error:0.1205
+Root Mean Squared Error:11.547816969403813
+----------------------------------
+Result for (2, 1, 1) (1, 1, 0, 24)
+Mean Absolute Percent Error:0.0827
+Root Mean Squared Error:8.362821091383951
+----------------------------------
+Result for (2, 1, 1) (1, 1, 1, 24)
+Mean Absolute Percent Error:0.0891
+Root Mean Squared Error:8.757424177692274
+----------------------------------
+Result for (2, 1, 1) (1, 1, 2, 24)
+Mean Absolute Percent Error:0.0819
+Root Mean Squared Error:8.723436937552936
+----------------------------------
+Result for (2, 1, 1) (1, 2, 0, 24)
+Mean Absolute Percent Error:0.1417
+Root Mean Squared Error:12.769171347253922
+----------------------------------
+Result for (2, 1, 1) (1, 2, 1, 24)
+Mean Absolute Percent Error:0.1264
+Root Mean Squared Error:11.36374266705024
+----------------------------------
+Result for (2, 1, 1) (1, 2, 2, 24)
+Mean Absolute Percent Error:0.1252
+Root Mean Squared Error:11.28992194799693
+----------------------------------
+Result for (2, 1, 1) (2, 0, 0, 24)
+Mean Absolute Percent Error:0.0851
+Root Mean Squared Error:8.805759007818974
+----------------------------------
+Result for (2, 1, 1) (2, 0, 1, 24)
+Mean Absolute Percent Error:0.1149
+Root Mean Squared Error:11.05120147630674
+----------------------------------
+Result for (2, 1, 1) (2, 0, 2, 24)
+Mean Absolute Percent Error:0.1147
+Root Mean Squared Error:11.01193050559046
+----------------------------------
+Result for (2, 1, 1) (2, 1, 0, 24)
+Mean Absolute Percent Error:0.0868
+Root Mean Squared Error:8.69426299194552
+----------------------------------
+Result for (2, 1, 1) (2, 1, 1, 24)
+Mean Absolute Percent Error:0.0843
+Root Mean Squared Error:8.58212287408418
+----------------------------------
+Result for (2, 1, 1) (2, 1, 2, 24)
+Mean Absolute Percent Error:0.0815
+Root Mean Squared Error:8.487676885475514
+----------------------------------
+Result for (2, 1, 1) (2, 2, 0, 24)
+Mean Absolute Percent Error:0.1298
+Root Mean Squared Error:11.709644652388477
+----------------------------------
+Result for (2, 1, 1) (2, 2, 1, 24)
+Mean Absolute Percent Error:0.222
+Root Mean Squared Error:20.950532185417718
+----------------------------------
+Result for (2, 1, 1) (2, 2, 2, 24)
+Mean Absolute Percent Error:0.2233
+Root Mean Squared Error:21.093646748016265
+----------------------------------
+Result for (2, 1, 2) (0, 0, 0, 24)
+Mean Absolute Percent Error:0.3274
+Root Mean Squared Error:25.338528993335892
+----------------------------------
+Result for (2, 1, 2) (0, 0, 1, 24)
+Mean Absolute Percent Error:0.307
+Root Mean Squared Error:23.684781301967785
+----------------------------------
+Result for (2, 1, 2) (0, 0, 2, 24)
+Mean Absolute Percent Error:0.1761
+Root Mean Squared Error:15.210815278463858
+----------------------------------
+Result for (2, 1, 2) (0, 1, 0, 24)
+Mean Absolute Percent Error:0.1387
+Root Mean Squared Error:11.65080749473463
+----------------------------------
+Result for (2, 1, 2) (0, 1, 1, 24)
+Mean Absolute Percent Error:0.0965
+Root Mean Squared Error:9.179499659762987
+----------------------------------
+Result for (2, 1, 2) (0, 1, 2, 24)
+Mean Absolute Percent Error:0.084
+Root Mean Squared Error:8.664525535348345
+----------------------------------
+Result for (2, 1, 2) (0, 2, 0, 24)
+Mean Absolute Percent Error:0.2198
+Root Mean Squared Error:21.64891311834389
+----------------------------------
+Result for (2, 1, 2) (0, 2, 1, 24)
+Mean Absolute Percent Error:0.1385
+Root Mean Squared Error:12.374455363624495
+----------------------------------
+Result for (2, 1, 2) (0, 2, 2, 24)
+Mean Absolute Percent Error:0.1282
+Root Mean Squared Error:11.52697190471597
+----------------------------------
+Result for (2, 1, 2) (1, 0, 0, 24)
+Mean Absolute Percent Error:0.173
+Root Mean Squared Error:13.918417269282033
+----------------------------------
+Result for (2, 1, 2) (1, 0, 1, 24)
+Mean Absolute Percent Error:0.1196
+Root Mean Squared Error:11.539844444186143
+----------------------------------
+Result for (2, 1, 2) (1, 0, 2, 24)
+Mean Absolute Percent Error:0.1144
+Root Mean Squared Error:11.001937854734217
+----------------------------------
+Result for (2, 1, 2) (1, 1, 0, 24)
+Mean Absolute Percent Error:0.0831
+Root Mean Squared Error:8.370634478946037
+----------------------------------
+Result for (2, 1, 2) (1, 1, 1, 24)
+Mean Absolute Percent Error:0.0899
+Root Mean Squared Error:8.804091754121227
+----------------------------------
+Result for (2, 1, 2) (1, 1, 2, 24)
+Mean Absolute Percent Error:0.0825
+Root Mean Squared Error:8.728699864811166
+----------------------------------
+Result for (2, 1, 2) (1, 2, 0, 24)
+Mean Absolute Percent Error:0.1413
+Root Mean Squared Error:12.770747002387608
+----------------------------------
+Result for (2, 1, 2) (1, 2, 1, 24)
+Mean Absolute Percent Error:0.1617
+Root Mean Squared Error:14.608404230432443
+----------------------------------
+Result for (2, 1, 2) (1, 2, 2, 24)
+Mean Absolute Percent Error:0.1815
+Root Mean Squared Error:16.54112102975224
+----------------------------------
+Result for (2, 1, 2) (2, 0, 0, 24)
+Mean Absolute Percent Error:0.0886
+Root Mean Squared Error:8.910539780262813
+----------------------------------
+Result for (2, 1, 2) (2, 0, 1, 24)
+Mean Absolute Percent Error:0.112
+Root Mean Squared Error:10.871214871087304
+----------------------------------
+Result for (2, 1, 2) (2, 0, 2, 24)
+Mean Absolute Percent Error:0.1051
+Root Mean Squared Error:10.288014419117195
+----------------------------------
+Result for (2, 1, 2) (2, 1, 0, 24)
+Mean Absolute Percent Error:0.087
+Root Mean Squared Error:8.704365386874306
+----------------------------------
+Result for (2, 1, 2) (2, 1, 1, 24)
+Mean Absolute Percent Error:0.0843
+Root Mean Squared Error:8.586745256988308
+----------------------------------
+Result for (2, 1, 2) (2, 1, 2, 24)
+Mean Absolute Percent Error:0.0817
+Root Mean Squared Error:8.482242227109555
+----------------------------------
+Result for (2, 1, 2) (2, 2, 0, 24)
+Mean Absolute Percent Error:0.1282
+Root Mean Squared Error:11.611394272012772
+----------------------------------
+Result for (2, 1, 2) (2, 2, 1, 24)
+Mean Absolute Percent Error:0.2195
+Root Mean Squared Error:20.77120925501768
+----------------------------------
+Result for (2, 1, 2) (2, 2, 2, 24)
+Mean Absolute Percent Error:0.2227
+Root Mean Squared Error:21.14583432191795
+----------------------------------
+Result for (2, 2, 0) (0, 0, 0, 24)
+Mean Absolute Percent Error:8.2882
+Root Mean Squared Error:760.0484062176068
+----------------------------------
+Result for (2, 2, 0) (0, 0, 1, 24)
+Mean Absolute Percent Error:6.9774
+Root Mean Squared Error:659.0367306885016
+----------------------------------
+Result for (2, 2, 0) (0, 0, 2, 24)
+Mean Absolute Percent Error:5.7208
+Root Mean Squared Error:547.6558705282131
+----------------------------------
+Result for (2, 2, 0) (0, 1, 0, 24)
+Mean Absolute Percent Error:0.2147
+Root Mean Squared Error:21.981718862903865
+----------------------------------
+Result for (2, 2, 0) (0, 1, 1, 24)
+Mean Absolute Percent Error:0.3982
+Root Mean Squared Error:35.21405462866917
+----------------------------------
+Result for (2, 2, 0) (0, 1, 2, 24)
+Mean Absolute Percent Error:0.3227
+Root Mean Squared Error:27.548894190236904
+----------------------------------
+Result for (2, 2, 0) (0, 2, 0, 24)
+Mean Absolute Percent Error:1.6547
+Root Mean Squared Error:166.79009201463816
+----------------------------------
+Result for (2, 2, 0) (0, 2, 1, 24)
+Mean Absolute Percent Error:0.7482
+Root Mean Squared Error:71.4288716006643
+----------------------------------
+Result for (2, 2, 0) (0, 2, 2, 24)
+Mean Absolute Percent Error:0.6309
+Root Mean Squared Error:60.25309760087313
+----------------------------------
+Result for (2, 2, 0) (1, 0, 0, 24)
+Mean Absolute Percent Error:3.814
+Root Mean Squared Error:376.2905544443272
+----------------------------------
+Result for (2, 2, 0) (1, 0, 1, 24)
+Mean Absolute Percent Error:1.2907
+Root Mean Squared Error:117.59296997113599
+----------------------------------
+Result for (2, 2, 0) (1, 0, 2, 24)
+Mean Absolute Percent Error:0.9904
+Root Mean Squared Error:86.69219533139469
+----------------------------------
+Result for (2, 2, 0) (1, 1, 0, 24)
+Mean Absolute Percent Error:0.7527
+Root Mean Squared Error:73.77879480947017
+----------------------------------
+Result for (2, 2, 0) (1, 1, 1, 24)
+Mean Absolute Percent Error:0.4189
+Root Mean Squared Error:36.35772621297109
+----------------------------------
+Result for (2, 2, 0) (1, 1, 2, 24)
+Mean Absolute Percent Error:0.2709
+Root Mean Squared Error:23.29924172667294
+----------------------------------
+Result for (2, 2, 0) (1, 2, 0, 24)
+Mean Absolute Percent Error:0.3105
+Root Mean Squared Error:27.77348701648056
+----------------------------------
+Result for (2, 2, 0) (1, 2, 1, 24)
+Mean Absolute Percent Error:0.1727
+Root Mean Squared Error:14.926146149918159
+----------------------------------
+Result for (2, 2, 0) (1, 2, 2, 24)
+Mean Absolute Percent Error:0.1884
+Root Mean Squared Error:18.297995989448385
+----------------------------------
+Result for (2, 2, 0) (2, 0, 0, 24)
+Mean Absolute Percent Error:2.1037
+Root Mean Squared Error:204.01995054915517
+----------------------------------
+Result for (2, 2, 0) (2, 0, 1, 24)
+Mean Absolute Percent Error:1.1432
+Root Mean Squared Error:101.83142528755985
+----------------------------------
+Result for (2, 2, 0) (2, 0, 2, 24)
+Mean Absolute Percent Error:1.2048
+Root Mean Squared Error:109.74648075554377
+----------------------------------
+Result for (2, 2, 0) (2, 1, 0, 24)
+Mean Absolute Percent Error:0.9438
+Root Mean Squared Error:88.89103708105539
+----------------------------------
+Result for (2, 2, 0) (2, 1, 1, 24)
+Mean Absolute Percent Error:0.36
+Root Mean Squared Error:30.799129087908344
+----------------------------------
+Result for (2, 2, 0) (2, 1, 2, 24)
+Mean Absolute Percent Error:0.3675
+Root Mean Squared Error:31.46458451294425
+----------------------------------
+Result for (2, 2, 0) (2, 2, 0, 24)
+Mean Absolute Percent Error:0.3133
+Root Mean Squared Error:34.967205375393455
+----------------------------------
+Result for (2, 2, 0) (2, 2, 1, 24)
+Mean Absolute Percent Error:0.3149
+Root Mean Squared Error:35.17497278034985
+----------------------------------
+Result for (2, 2, 0) (2, 2, 2, 24)
+Mean Absolute Percent Error:0.3117
+Root Mean Squared Error:34.73688381187967
+----------------------------------
+Result for (2, 2, 1) (0, 0, 0, 24)
+Mean Absolute Percent Error:1.0719
+Root Mean Squared Error:102.14952070845757
+----------------------------------
+Result for (2, 2, 1) (0, 0, 1, 24)
+Mean Absolute Percent Error:0.814
+Root Mean Squared Error:81.76706035203352
+----------------------------------
+Result for (2, 2, 1) (0, 0, 2, 24)
+Mean Absolute Percent Error:0.6548
+Root Mean Squared Error:67.67504716096683
+----------------------------------
+Result for (2, 2, 1) (0, 1, 0, 24)
+Mean Absolute Percent Error:0.1535
+Root Mean Squared Error:13.221166318070797
+----------------------------------
+Result for (2, 2, 1) (0, 1, 1, 24)
+Mean Absolute Percent Error:0.1057
+Root Mean Squared Error:9.735848223377788
+----------------------------------
+Result for (2, 2, 1) (0, 1, 2, 24)
+Mean Absolute Percent Error:0.1183
+Root Mean Squared Error:10.681175077448799
+----------------------------------
+Result for (2, 2, 1) (0, 2, 0, 24)
+Mean Absolute Percent Error:0.3394
+Root Mean Squared Error:30.485223767529323
+----------------------------------
+Result for (2, 2, 1) (0, 2, 1, 24)
+Mean Absolute Percent Error:0.2897
+Root Mean Squared Error:25.237698022607674
+----------------------------------
+Result for (2, 2, 1) (0, 2, 2, 24)
+Mean Absolute Percent Error:0.2732
+Root Mean Squared Error:24.28119025965366
+----------------------------------
+Result for (2, 2, 1) (1, 0, 0, 24)
+Mean Absolute Percent Error:0.1634
+Root Mean Squared Error:14.917181589993692
+----------------------------------
+Result for (2, 2, 1) (1, 0, 1, 24)
+Mean Absolute Percent Error:0.0983
+Root Mean Squared Error:9.479876294876156
+----------------------------------
+Result for (2, 2, 1) (1, 0, 2, 24)
+Mean Absolute Percent Error:0.0853
+Root Mean Squared Error:8.550661988128372
+----------------------------------
+Result for (2, 2, 1) (1, 1, 0, 24)
+Mean Absolute Percent Error:0.1179
+Root Mean Squared Error:10.569054636969508
+----------------------------------
+Result for (2, 2, 1) (1, 1, 1, 24)
+Mean Absolute Percent Error:0.1075
+Root Mean Squared Error:9.939308822981687
+----------------------------------
+Result for (2, 2, 1) (1, 1, 2, 24)
+Mean Absolute Percent Error:0.1221
+Root Mean Squared Error:10.994077451727113
+----------------------------------
+Result for (2, 2, 1) (1, 2, 0, 24)
+Mean Absolute Percent Error:0.2703
+Root Mean Squared Error:23.9641991072472
+----------------------------------
+Result for (2, 2, 1) (1, 2, 1, 24)
+Mean Absolute Percent Error:0.2762
+Root Mean Squared Error:24.61238908636028
+----------------------------------
+Result for (2, 2, 1) (1, 2, 2, 24)
+Mean Absolute Percent Error:0.2863
+Root Mean Squared Error:25.605990783130373
+----------------------------------
+Result for (2, 2, 1) (2, 0, 0, 24)
+Mean Absolute Percent Error:0.0852
+Root Mean Squared Error:8.813427129793103
+----------------------------------
+Result for (2, 2, 1) (2, 0, 1, 24)
+Mean Absolute Percent Error:0.0988
+Root Mean Squared Error:9.574545442968214
+----------------------------------
+Result for (2, 2, 1) (2, 0, 2, 24)
+Mean Absolute Percent Error:0.0976
+Root Mean Squared Error:9.407569676652667
+----------------------------------
+Result for (2, 2, 1) (2, 1, 0, 24)
+Mean Absolute Percent Error:0.1123
+Root Mean Squared Error:10.232269867567373
+----------------------------------
+Result for (2, 2, 1) (2, 1, 1, 24)
+Mean Absolute Percent Error:0.1177
+Root Mean Squared Error:10.551174045255094
+----------------------------------
+Result for (2, 2, 1) (2, 1, 2, 24)
+Mean Absolute Percent Error:0.1239
+Root Mean Squared Error:10.9620344256885
+----------------------------------
+Result for (2, 2, 1) (2, 2, 0, 24)
+Mean Absolute Percent Error:0.3179
+Root Mean Squared Error:29.500563706602403
+----------------------------------
+Result for (2, 2, 1) (2, 2, 1, 24)
+Mean Absolute Percent Error:0.3201
+Root Mean Squared Error:29.75172841443032
+----------------------------------
+Result for (2, 2, 1) (2, 2, 2, 24)
+Mean Absolute Percent Error:0.3195
+Root Mean Squared Error:29.68256193723237
+----------------------------------
+Result for (2, 2, 2) (0, 0, 0, 24)
+Mean Absolute Percent Error:1.2153
+Root Mean Squared Error:113.60386581137918
+----------------------------------
+Result for (2, 2, 2) (0, 0, 1, 24)
+Mean Absolute Percent Error:0.7889
+Root Mean Squared Error:79.62939693760211
+----------------------------------
+Result for (2, 2, 2) (0, 0, 2, 24)
+Mean Absolute Percent Error:0.6099
+Root Mean Squared Error:63.673438629013695
+----------------------------------
+Result for (2, 2, 2) (0, 1, 0, 24)
+Mean Absolute Percent Error:0.1324
+Root Mean Squared Error:11.6402465532729
+----------------------------------
+Result for (2, 2, 2) (0, 1, 1, 24)
+Mean Absolute Percent Error:0.0813
+Root Mean Squared Error:7.938428143188826
+----------------------------------
+Result for (2, 2, 2) (0, 1, 2, 24)
+Mean Absolute Percent Error:0.0954
+Root Mean Squared Error:9.159229123350741
+----------------------------------
+Result for (2, 2, 2) (0, 2, 0, 24)
+Mean Absolute Percent Error:0.325
+Root Mean Squared Error:29.13055359526082
+----------------------------------
+Result for (2, 2, 2) (0, 2, 1, 24)
+Mean Absolute Percent Error:0.2352
+Root Mean Squared Error:20.344187042129686
+----------------------------------
+Result for (2, 2, 2) (0, 2, 2, 24)
+Mean Absolute Percent Error:0.23
+Root Mean Squared Error:20.257494130206418
+----------------------------------
+Result for (2, 2, 2) (1, 0, 0, 24)
+Mean Absolute Percent Error:0.1439
+Root Mean Squared Error:12.500440871509637
+----------------------------------
+Result for (2, 2, 2) (1, 0, 1, 24)
+Mean Absolute Percent Error:0.1134
+Root Mean Squared Error:10.888076125159648
+----------------------------------
+Result for (2, 2, 2) (1, 0, 2, 24)
+Mean Absolute Percent Error:0.0849
+Root Mean Squared Error:8.599253872768879
+----------------------------------
+Result for (2, 2, 2) (1, 1, 0, 24)
+Mean Absolute Percent Error:0.0952
+Root Mean Squared Error:8.972264245927073
+----------------------------------
+Result for (2, 2, 2) (1, 1, 1, 24)
+Mean Absolute Percent Error:0.08
+Root Mean Squared Error:7.863563609627229
+----------------------------------
+Result for (2, 2, 2) (1, 1, 2, 24)
+Mean Absolute Percent Error:0.1022
+Root Mean Squared Error:9.747803748006929
+----------------------------------
+Result for (2, 2, 2) (1, 2, 0, 24)
+Mean Absolute Percent Error:0.2424
+Root Mean Squared Error:21.447808173157433
+----------------------------------
+Result for (2, 2, 2) (1, 2, 1, 24)
+Mean Absolute Percent Error:0.2581
+Root Mean Squared Error:22.98622763568209
+----------------------------------
+Result for (2, 2, 2) (1, 2, 2, 24)
+Mean Absolute Percent Error:0.2923
+Root Mean Squared Error:26.133092603974656
+----------------------------------
+Result for (2, 2, 2) (2, 0, 0, 24)
+Mean Absolute Percent Error:0.0858
+Root Mean Squared Error:8.878627432147445
+----------------------------------
+Result for (2, 2, 2) (2, 0, 1, 24)
+Mean Absolute Percent Error:0.1141
+Root Mean Squared Error:11.02071472185066
+----------------------------------
+Result for (2, 2, 2) (2, 1, 0, 24)
+Mean Absolute Percent Error:0.0849
+Root Mean Squared Error:8.425927335407325
+----------------------------------
+Result for (2, 2, 2) (2, 1, 1, 24)
+Mean Absolute Percent Error:0.0784
+Root Mean Squared Error:7.902185399682407
+----------------------------------
+Result for (2, 2, 2) (2, 1, 2, 24)
+Mean Absolute Percent Error:0.0978
+Root Mean Squared Error:9.19612997922607
+----------------------------------
+Result for (2, 2, 2) (2, 2, 0, 24)
+Mean Absolute Percent Error:0.3185
+Root Mean Squared Error:29.54754820193067
+----------------------------------
+Result for (2, 2, 2) (2, 2, 1, 24)
+Mean Absolute Percent Error:0.3184
+Root Mean Squared Error:29.532692324009595
+----------------------------------
+Result for (2, 2, 2) (2, 2, 2, 24)
+Mean Absolute Percent Error:0.3075
+Root Mean Squared Error:27.74668476833019
+----------------------------------
+Minimum MEAN SQUARE ERROR has been obtained with 89.89641926786128 (2, 2, 2, 24)
+----------------------------------
+Minimum ABSOLUTE PERCENT ERROR has been obtained with (2, 2, 2) (2, 2, 2, 24)
+----------------------------------
