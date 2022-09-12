@@ -25,13 +25,14 @@ class Device:
         self.dev_imsi = dev_imsi
 
 
-command_input = ""
+# Configuration
+time_sleep_sec = 1
+
 connected_devices: List[Device] = []
 connected_devices_num = 0
 mean_conn_dev = [4, 2, 3, 2, 3, 2, 3, 5, 2, 7, 8, 9, 9, 10, 12, 10, 10, 11, 11, 12, 12, 12, 8, 5]
 i = 0
 iteration = 1
-time_sleep_sec = 1
 history_file = None
 starting_val: pd.Series
 
@@ -78,7 +79,7 @@ def remove_device(actual_dev: int, num_to_rem, lista: List[Device]):
 
         Popen(["/home/paolo/code/UERANSIM/build/nr-cli", device.dev_imsi, "-e", "deregister switch-off"])
         # print("/home/paolo/code/UERANSIM/build/nr-cli" + dev_name + " -e 'deregister switch-off'\n")
-        time.sleep(0.1)
+        time.sleep(0.05)
         os.kill(device.pid, signal.SIGTERM)
         lista.pop()
         assert (position >= 0)
@@ -91,15 +92,26 @@ def parser(s):
 
 def get_starting_values():
     starting_values = pd.read_csv('starting_data.csv', usecols=['time', 'num_usr'], parse_dates=[0], index_col=0,
-                               date_parser=parser)
+                                  date_parser=parser)
 
     return starting_values
 
 
+def initial_setup():
+    signal.signal(signal.SIGTERM, on_close)
+    signal.signal(signal.SIGINT, on_close)
+    signal.signal(signal.SIGHUP, on_close)
+
+    if os.path.exists("./logs"):
+        if not(os.path.isdir("./logs")):
+            os.remove("./logs")
+            os.mkdir("./logs")
+    else:
+        os.mkdir("./logs")
+
+
 print("Starting...\n")
-signal.signal(signal.SIGTERM, on_close)
-signal.signal(signal.SIGINT, on_close)
-signal.signal(signal.SIGHUP, on_close)
+initial_setup()
 starting_val = get_starting_values()
 history_file = open("dev_num_log.txt", "a+")
 
@@ -111,7 +123,7 @@ while 1:
     print("Starting iteration " + str(iteration) + " | mean index: " + str(i))
 
     mean = mean_conn_dev[i]
-    stand_dev = (2/max_val)*mean
+    stand_dev = (2 / max_val) * mean
     data = random.normal(loc=mean, scale=stand_dev, size=1)
 
     num_dev = round(data[0])
@@ -142,6 +154,6 @@ while 1:
 
     iteration = iteration + 1
 
-    j=j+1
+    j = j + 1
     print(str(time_sleep_sec) + "s to next iter")
     time.sleep(time_sleep_sec)
