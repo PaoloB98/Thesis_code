@@ -18,6 +18,13 @@ if len(arguments) > 0:
     if arguments[0] == "-d":
         source_file = "free5gc-ue-deploy.yaml"
 
+if os.path.exists("./config"):
+    if not(os.path.isdir("./config")):
+        os.remove("./config")
+        os.mkdir("./config")
+else:
+    os.mkdir("./config")
+
 for i in range(0,99):
     print("Iteration " + str(i)+ "\n")
     num_str = ""
