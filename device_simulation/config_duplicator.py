@@ -8,9 +8,15 @@ Created on Fri Aug 26 17:57:29 2022
 
 import os
 import re
+import sys
 
 print(os.getcwd())
 imeis = 356938035643803
+source_file = "free5gc-ue.yaml"
+arguments = sys.argv[1:]
+if len(arguments) > 0:
+    if arguments[0] == "-d":
+        source_file = "free5gc-ue-deploy.yaml"
 
 for i in range(0,99):
     print("Iteration " + str(i)+ "\n")
@@ -27,7 +33,7 @@ for i in range(0,99):
     
     #shutil.copyfile("free5gc-ue.yaml", filename)
     
-    fin = open("free5gc-ue.yaml", "r")
+    fin = open(source_file, "r")
     fout = open(filename, "w")
     
     for line in fin:

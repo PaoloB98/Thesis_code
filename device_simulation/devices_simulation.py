@@ -14,6 +14,7 @@ from typing import List
 import time
 import pandas as pd
 from datetime import datetime
+import sys
 
 
 class Device:
@@ -26,7 +27,7 @@ class Device:
 
 
 # Configuration
-time_sleep_sec = 1
+time_sleep_sec = 10
 
 connected_devices: List[Device] = []
 connected_devices_num = 0
@@ -35,6 +36,12 @@ i = 0
 iteration = 1
 history_file = None
 starting_val: pd.Series
+
+exec_location = ["/home/paolo/code/UERANSIM/build/nr-ue", "/home/paolo/code/UERANSIM/build/nr-cli"]
+arguments = sys.argv[1:]
+if len(arguments) > 0:
+    if arguments[0]== "-d":
+        exec_location = ["/UERANSIM/build/nr-ue", "/UERANSIM/build/nr-cli"]
 
 
 def on_close(sig, frame):
@@ -62,10 +69,9 @@ def add_device(actual_dev: int, num_to_add, lista: List[Device]):
 
         dev_std_out = open(log_name, 'a+')
         # Popen(["/home/paolo/code/UERANSIM/build/nr-ue", "-c", config_name])
-        proc_id = Popen(["/home/paolo/code/UERANSIM/build/nr-ue", "-c", config_name], stdout=dev_std_out,
+        proc_id = Popen([exec_location[0], "-c", config_name], stdout=dev_std_out,
                         stderr=dev_std_out, shell=False).pid
         # print("/home/paolo/code/UERANSIM/build/nr-ue" + " -c " + config_name + "\n")
-        # subprocess.DEVNULL
         new_dev: Device = Device(pid=proc_id, dev_imsi=dev_name)
         lista.append(new_dev)
     return actual_dev + num_to_add
@@ -77,7 +83,7 @@ def remove_device(actual_dev: int, num_to_rem, lista: List[Device]):
 
         device = lista[position]
 
-        Popen(["/home/paolo/code/UERANSIM/build/nr-cli", device.dev_imsi, "-e", "deregister switch-off"])
+        Popen([exec_location[1], device.dev_imsi, "-e", "deregister switch-off"])
         # print("/home/paolo/code/UERANSIM/build/nr-cli" + dev_name + " -e 'deregister switch-off'\n")
         time.sleep(0.05)
         os.kill(device.pid, signal.SIGTERM)
