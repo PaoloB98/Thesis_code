@@ -28,6 +28,7 @@ class Device:
 
 # Configuration
 time_sleep_sec = 10
+debug: int = 0
 
 connected_devices: List[Device] = []
 connected_devices_num = 0
@@ -40,7 +41,7 @@ starting_val: pd.Series
 exec_location = ["/home/paolo/code/UERANSIM/build/nr-ue", "/home/paolo/code/UERANSIM/build/nr-cli"]
 arguments = sys.argv[1:]
 if len(arguments) > 0:
-    if arguments[0]== "-d":
+    if arguments[0] == "-d":
         exec_location = ["/UERANSIM/build/nr-ue", "/UERANSIM/build/nr-cli"]
 
 
@@ -109,24 +110,26 @@ def initial_setup():
     signal.signal(signal.SIGHUP, on_close)
 
     if os.path.exists("./logs"):
-        if not(os.path.isdir("./logs")):
+        if not (os.path.isdir("./logs")):
             os.remove("./logs")
             os.mkdir("./logs")
     else:
         os.mkdir("./logs")
 
 
-print("Starting...\n")
+if debug:
+    print("Starting...\n")
 initial_setup()
 starting_val = get_starting_values()
-history_file = open("dev_num_log.txt", "a+")
+history_file = open("dev_num_log.txt", "w")
 
 mean_conn_dev = starting_val.to_numpy()
 max_val = mean_conn_dev.max()
 
 j: int = 0
 while 1:
-    print("Starting iteration " + str(iteration) + " | mean index: " + str(i))
+    if debug:
+        print("Starting iteration " + str(iteration) + " | mean index: " + str(i))
 
     mean = mean_conn_dev[i]
     stand_dev = (2 / max_val) * mean
@@ -134,7 +137,8 @@ while 1:
 
     num_dev = round(data[0])
 
-    print("Number of dev: " + str(num_dev))
+    if debug:
+        print("Number of dev: " + str(num_dev))
     history_file.write("pos:" + str(i) + " " + str(num_dev) + "\n")
     history_file.flush()
 
@@ -150,16 +154,20 @@ while 1:
     diff = len(connected_devices) - num_dev
 
     if diff < 0:
-        print(str(abs(diff)) + " devices will be added")
+        if debug:
+            print(str(abs(diff)) + " devices will be added")
         connected_devices_num = add_device(connected_devices_num, abs(diff), connected_devices)
     elif diff > 0:
-        print(str(diff) + " devices will be removed")
+        if debug:
+            print(str(diff) + " devices will be removed")
         connected_devices_num = remove_device(connected_devices_num, diff, connected_devices)
-
-    print("Iteration done\n")
 
     iteration = iteration + 1
 
+    print(f"[{datetime.now()}] [INFO] Actual simulated devices are now: {connected_devices_num} | Difference: {-diff}")
+    sys.stdout.flush()
+
     j = j + 1
-    print(str(time_sleep_sec) + "s to next iter")
+    if debug:
+        print(str(time_sleep_sec) + "s to next iter")
     time.sleep(time_sleep_sec)
