@@ -5,21 +5,29 @@ import pandas as pd
 from statsmodels.tsa.statespace.sarimax import SARIMAX
 from statsmodels.tsa.statespace.sarimax import SARIMAXResults
 from datetime import datetime
+import sys
 import pause
 
-scraping_interval_sec: int = 1
+scraping_interval_sec: int = 10
 seasonal_period = 24
 max_samples_for_training = seasonal_period*14
-#Minimum number of samples to start predicting
+# Minimum number of samples to start predicting
 min_num_sample = seasonal_period*2
+next_sample_collection = 0
 
-scraping_API = "http://localhost:9090/api/v1/query?query=free5gc_core_connected_3gpp_ues"
-scraping_API_range = "http://localhost:9090/api/v1/query_range?query=free5gc_core_connected_3gpp_ues"
+address = "localhost:9090"
+arguments = sys.argv[1:]
+if len(arguments) > 1:
+    if arguments[0] == "-addr":
+        address = arguments[1]
+
+protocol = "http://"
+scraping_API = protocol + address + "/api/v1/query?query=free5gc_core_connected_3gpp_ues"
+scraping_API_range = protocol + address + "/api/v1/query_range?query=free5gc_core_connected_3gpp_ues"
 custom_headers = {'User-Agent': 'python-requests/2.28.1', 'Accept': '*/*'}
 
 samples = pd.Series()
 my_order = (1, 1, 1)
-
 my_seasonal_order = (1, 1, 1, seasonal_period)
 pred_log_file = None
 
@@ -29,8 +37,10 @@ def on_close(sig, frame):
     exit(0)
 
 def collect_initial_data():
-    end_time = time.time()
+    actual_time = time.time()
+    end_time = actual_time - (actual_time % scraping_interval_sec)
     start_time = end_time - (scraping_interval_sec*min_num_sample)
+    next_collection = end_time + scraping_interval_sec
     uri = f"{scraping_API_range}&start={start_time}&end={end_time}&step={scraping_interval_sec}s"
     #custom_params = {'start':str(start_time),'end':str(end_time),'step':str(scraping_interval_sec)+'s'}
     response = requests.get(uri, headers=custom_headers)
@@ -57,11 +67,11 @@ def collect_initial_data():
     new_samples = pd.Series(values, index=datetime_time)
     new_samples = new_samples.astype(int)
 
-    return new_samples
+    return new_samples, next_collection
 
 
 def collect_data():
-    response = requests.get(scraping_API)
+    response = requests.get(f"{scraping_API}&time={next_sample_collection}")
     rsp_json = response.json()
     time_sec = rsp_json['data']['result'][0]['value'][0]
     value = rsp_json['data']['result'][0]['value'][1]
@@ -80,19 +90,20 @@ def collect_data():
 
     print("New sample has been collected: " + str(datetime_time) + " | " + str(value))
 
-    return new_samples
+    return new_samples, next_sample_collection+scraping_interval_sec
 
 
 # Imposta il metodo di chiusura
 signal.signal(signal.SIGTERM, on_close)
 signal.signal(signal.SIGINT, on_close)
-samples = collect_initial_data() #Get samples from prometheus
+samples, next_sample_collection = collect_initial_data() #Get samples from prometheus
 
 #If there wasn't enough valid samples, wait for filling
 while samples.size<min_num_sample:
+    pause.until(next_sample_collection)
+    next_sample_collection = next_sample_collection + scraping_interval_sec
     samples = collect_data()
     print("Current samples: "+str(samples.size)+"\n")
-    time.sleep(scraping_interval_sec)
 
 samples_freq = samples.asfreq('S')
 pred_log_file = open("pred.log", "a+")
@@ -115,21 +126,17 @@ while i > 0:
 
     for j in range(0,seasonal_period):
         i = i + 1
-        collect_data()
+        pause.until(next_sample_collection)
+        samples, next_sample_collection = collect_data()
         minimum = conf_ints.iloc[j].at["lower y"]
         maximum = conf_ints.iloc[j].at["upper y"]
         pred_log_file.write("[" + str(minimum) + " " + str(maximum) + "]")
 
         observation = samples.iloc[-1] #Prendo l'ultimo osservato
-        print("Prediction: " + str(prediction_mean.iloc[0]) + " --> Actual value: " + str(observation))
-        comulative_sqr_err = comulative_sqr_err + (prediction_mean.iloc[0] - observation) ** 2
+        print("Prediction: " + str(prediction_mean.iloc[j]) + " --> Actual value: " + str(observation))
+        comulative_sqr_err = comulative_sqr_err + (prediction_mean.iloc[j] - observation) ** 2
         mse = comulative_sqr_err / (i - min_num_sample)
         print("Mean square error: " + str(mse) + "\n")
-
-        time.sleep(scraping_interval_sec)
-
-
-#Mettere un limite ai sample che possono essere raccolti, buttando via i vecchi!
 
 
 
