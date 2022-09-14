@@ -15,6 +15,7 @@ import time
 import pandas as pd
 from datetime import datetime
 import sys
+import pause
 
 
 class Device:
@@ -27,7 +28,7 @@ class Device:
 
 
 # Configuration
-time_sleep_sec = 10
+time_sleep_sec = 10.0
 debug: int = 0
 
 connected_devices: List[Device] = []
@@ -120,13 +121,13 @@ def initial_setup():
 if debug:
     print("Starting...\n")
 initial_setup()
+next_iteration = time.time() + time_sleep_sec
 starting_val = get_starting_values()
 history_file = open("dev_num_log.txt", "w")
 
 mean_conn_dev = starting_val.to_numpy()
 max_val = mean_conn_dev.max()
 
-j: int = 0
 while 1:
     if debug:
         print("Starting iteration " + str(iteration) + " | mean index: " + str(i))
@@ -145,11 +146,10 @@ while 1:
     if num_dev < 0:
         num_dev = 0
 
-    if ((iteration % 4) == 0) & (iteration > 0):
-        if i < (len(mean_conn_dev) - 1):
-            i = i + 1
-        else:
-            i = 0
+    if i < (len(mean_conn_dev) - 1):
+        i = i + 1
+    else:
+        i = 0
 
     diff = len(connected_devices) - num_dev
 
@@ -167,7 +167,8 @@ while 1:
     print(f"[{datetime.now()}] [INFO] Actual simulated devices are now: {connected_devices_num} | Difference: {-diff}")
     sys.stdout.flush()
 
-    j = j + 1
     if debug:
         print(str(time_sleep_sec) + "s to next iter")
-    time.sleep(time_sleep_sec)
+
+    pause.until(next_iteration)
+    next_iteration = next_iteration + time_sleep_sec
