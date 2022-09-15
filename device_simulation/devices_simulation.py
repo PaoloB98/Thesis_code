@@ -3,7 +3,7 @@
 """
 Created on Sun Aug 28 10:26:11 2022
 
-@author: paolo
+@author: Paolo Bono
 """
 
 import os
