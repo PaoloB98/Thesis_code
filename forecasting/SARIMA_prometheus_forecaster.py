@@ -99,11 +99,11 @@ signal.signal(signal.SIGINT, on_close)
 samples, next_sample_collection = collect_initial_data() #Get samples from prometheus
 
 #If there wasn't enough valid samples, wait for filling
-while samples.size<min_num_sample:
+while samples.size < min_num_sample:
     pause.until(next_sample_collection)
     next_sample_collection = next_sample_collection + scraping_interval_sec
     samples = collect_data()
-    print("Current samples: "+str(samples.size)+"\n")
+    #print("Current samples: "+str(samples.size)+"\n")
 
 samples_freq = samples.asfreq('S')
 pred_log_file = open("pred.log", "a+")
