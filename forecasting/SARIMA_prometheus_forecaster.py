@@ -20,7 +20,7 @@ scraping_interval_sec: int = 10
 seasonal_period = 24
 max_samples_for_training = seasonal_period * 14
 # Minimum number of samples to start predicting
-min_num_sample = seasonal_period * 2
+min_num_sample = seasonal_period * 3
 next_sample_collection = 0
 
 address = "localhost:9090"
@@ -39,8 +39,10 @@ my_order = (1, 1, 1)
 my_seasonal_order = (1, 1, 1, seasonal_period)
 pred_log_file = None
 
+
 def test_connection():
     response = requests.get(scraping_API)
+
 
 def on_close(sig, frame):
     print("Closing...\n")
@@ -79,6 +81,10 @@ def collect_initial_data():
 
     new_samples = pd.Series(values, index=datetime_time)
     new_samples = new_samples.astype(int)
+
+    if new_samples.size > min_num_sample:
+        # Removes older sample
+        new_samples = new_samples.drop(new_samples.index[0])
 
     return new_samples, next_collection
 
