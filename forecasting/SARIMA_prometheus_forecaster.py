@@ -102,6 +102,7 @@ def collect_data():
     new_samples = new_samples.astype(int)
 
     print("New sample has been collected: " + str(datetime_time) + " | " + str(value))
+    print("Total samples: " + str(new_samples.size))
     sys.stdout.flush()
 
     return new_samples, next_sample_collection + scraping_interval_sec
@@ -111,6 +112,7 @@ def collect_data():
 signal.signal(signal.SIGTERM, on_close)
 signal.signal(signal.SIGINT, on_close)
 samples, next_sample_collection = collect_initial_data()  # Get samples from prometheus
+print("Initial samples: " + str(samples.size))
 
 # If there wasn't enough valid samples, wait for filling
 while samples.size < min_num_sample:
