@@ -102,6 +102,7 @@ def collect_data():
     new_samples = new_samples.astype(int)
 
     print("New sample has been collected: " + str(datetime_time) + " | " + str(value))
+    sys.stdout.flush()
 
     return new_samples, next_sample_collection + scraping_interval_sec
 
