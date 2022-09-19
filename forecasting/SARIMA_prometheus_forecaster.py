@@ -117,6 +117,7 @@ def collect_data():
 # Imposta il metodo di chiusura
 signal.signal(signal.SIGTERM, on_close)
 signal.signal(signal.SIGINT, on_close)
+time.sleep(scraping_interval_sec*2)
 samples, next_sample_collection = collect_initial_data()  # Get samples from prometheus
 print("Initial samples: " + str(samples.size))
 
