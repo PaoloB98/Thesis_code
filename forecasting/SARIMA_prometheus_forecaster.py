@@ -126,7 +126,7 @@ while samples.size < min_num_sample:
     samples, next_sample_collection = collect_data()
     # print("Current samples: "+str(samples.size)+"\n")
 
-samples_freq = samples.asfreq('S')
+samples_freq = samples.asfreq('10S')
 pred_log_file = open("pred.log", "a+")
 i: int = min_num_sample
 minimum = 0
