@@ -139,7 +139,10 @@ while i > 0:
     # define model
     model = SARIMAX(samples, order=my_order, seasonal_order=my_seasonal_order)
 
+    start_fitting = time.time()
     fitted_model: SARIMAXResults = model.fit()
+    fitting_time = time.time() - start_fitting
+    print(f"Model tooks {fitting_time} seconds to fit.")
 
     forecast = fitted_model.get_forecast(seasonal_period)
     prediction_mean = forecast.predicted_mean
