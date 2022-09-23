@@ -23,7 +23,7 @@ max_samples_for_training = seasonal_period * 14
 min_num_sample = seasonal_period * 3
 next_sample_collection = 0
 
-address = "localhost:9090"
+address = "localhost:9089"
 arguments = sys.argv[1:]
 if len(arguments) > 1:
     if arguments[0] == "-addr":
