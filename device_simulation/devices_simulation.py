@@ -105,7 +105,8 @@ def sync_clock():
     while i < 10:
         try:
             response = requests.get(scraping_API)
-        except ConnectionError:
+        except:
+            print("Something went wrong!")
             return time_sec
         rsp_json = response.json()
 
@@ -251,6 +252,7 @@ while 1:
     print(f"[{datetime.now()}] [INFO] Simulated devices will be: {num_dev} | Difference: {-diff}")
     if debug:
         print(f"[{time.time()}] [INFO] Simulated devices will be: {num_dev} | Difference: {-diff}")
+    sys.stdout.flush()
 
     if diff < 0:
         connected_devices_num = add_device(connected_devices_num, abs(diff))
@@ -262,6 +264,7 @@ while 1:
     print(f"[{datetime.now()}] [INFO] Actual simulated devices are now: {connected_devices_num} | Difference: {-diff}")
     if debug:
         print(f"[{time.time()}] [INFO] Actual simulated devices are now: {connected_devices_num} | Difference: {-diff}")
+    sys.stdout.flush()
 
     if debug:
         print(str(time_sleep_sec) + "s to next iter")
