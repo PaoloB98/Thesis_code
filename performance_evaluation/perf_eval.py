@@ -7,7 +7,7 @@ import os
 import subprocess
 
 nwdaf_on = 1
-minutes_to_test: int = 1
+minutes_to_test: int = 60
 starting_dir = os.getcwd()
 address = "localhost:9089"
 protocol = "http://"

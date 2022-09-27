@@ -56,6 +56,7 @@ time_sleep_sec = 10.0
 debug: int = 1
 max_devices: int = 100
 deploy = False
+initial_delay = time_sleep_sec*2.5
 ##############
 
 device_list: List[Device] = []
@@ -213,9 +214,10 @@ def get_dev_conf_log_names(position):
         log_name = "logs/log_" + str(position) + ".txt"
     return dev_name, config_name, log_name
 
+#Initial delay is necessary to let prometheus collect some data before trying to sync with it.
+print(f"Starting... initial delay of {initial_delay}\n")
+pause.sleep(initial_delay)
 
-if debug:
-    print("Starting...\n")
 on_start()
 start_time = sync_clock()
 next_iteration = start_time + time_sleep_sec
