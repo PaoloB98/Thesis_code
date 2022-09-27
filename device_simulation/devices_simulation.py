@@ -54,7 +54,7 @@ class Device:
 # Configuration
 time_sleep_sec = 10.0
 debug: int = 1
-max_devices: int = 100
+max_devices: int = 1000
 deploy = False
 initial_delay = time_sleep_sec*2.5
 ##############

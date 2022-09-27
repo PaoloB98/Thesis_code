@@ -3,8 +3,9 @@ import json
 
 f = open('data/device_reg_body.json')
 data = json.load(f)
+device_number = 1000
 
-for i in range(0, 100):
+for i in range(0, 1000):
     print("Iteration " + str(i) + "\n")
     num_str = ""
     if (i < 10):

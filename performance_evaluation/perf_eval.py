@@ -41,7 +41,7 @@ def get_metric(dataframe, metric_name, start_time, end_time, average: bool, minu
             {"start_time": start_time, "end_time": end_time, "metric_name": metric_name, "value": metric_value,
              "container": container_name, "average": average, "minutes_average": minutes_of_average})
     df_to_append = tmp_df.from_records(tmp_list)
-    dataframe = pd.concat([dataframe, df_to_append])
+    dataframe = pd.concat([dataframe, df_to_append], ignore_index=True)
     return dataframe
 
 
@@ -87,7 +87,7 @@ def load_data_from_csv(metric_name):
         filename = f"./results/nwdaf_off/{metric_name}.csv"
     if os.path.isfile(filename):
         file = open(filename, "r+")
-        content = pd.read_csv(file)
+        content = pd.read_csv(file, index_col=[0])
         file.close()
         return content
     else:

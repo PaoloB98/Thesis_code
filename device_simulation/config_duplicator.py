@@ -10,6 +10,7 @@ import os
 import re
 import sys
 
+device_number = 1000
 print(os.getcwd())
 imeis = 356938035643803
 source_file = "free5gc-ue.yaml"
@@ -25,7 +26,7 @@ if os.path.exists("./config"):
 else:
     os.mkdir("./config")
 
-for i in range(0,99):
+for i in range(0,device_number):
     print("Iteration " + str(i)+ "\n")
     num_str = ""
     if(i<10):
