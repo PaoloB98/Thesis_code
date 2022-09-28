@@ -14,9 +14,9 @@ for i in range(0, device_number):
         if i <= 99:
             num_str = "0" + str(i)
         else:
-            num_str = "0" + str(i)
+            num_str = str(i)
 
-    imsi = "imsi-20893000000" + num_str
+    imsi = "imsi-208930000000" + num_str
     url = f"http://localhost:5000/api/subscriber/{imsi}/20893"
     data['ueId'] = imsi
     headers_c = {"Content-Type": "application/json", "Accept-Charset": "utf-8", "Token": "admin"}
