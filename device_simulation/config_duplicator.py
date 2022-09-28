@@ -30,12 +30,15 @@ for i in range(0,device_number):
     print("Iteration " + str(i)+ "\n")
     num_str = ""
     if(i<10):
-         num_str = str(0)+str(i)
+         num_str = "00"+str(i)
     else:
-         num_str = str(i)
+        if(i<=99):
+            num_str = "0"+str(i)
+        else:
+            num_str = str(i)
     
     filename = "config/free5gc-ue" + num_str + ".yaml"
-    imsi = "imsi-2089300000000" + num_str
+    imsi = "imsi-208930000000" + num_str
     imeis= imeis+1
     imeifinal = f"imei: '{imeis}'"
     

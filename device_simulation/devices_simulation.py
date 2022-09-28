@@ -34,7 +34,8 @@ class Colors:
 
 class Device:
     pid: int = -1
-    dev_imsi: str = "imsi-2089300000000"
+    dev_imsi: str = "imsi-208930000000"
+                   #"imsi-208930000000000"
     dev_log: str = ""
     dev_config_file: str = ""
 
@@ -142,7 +143,7 @@ def add_device(actual_dev: int, num_to_add):
         # Popen(["/home/paolo/code/UERANSIM/build/nr-ue", "-c", config_name])
         proc_id = Popen([exec_location[0], "-c", device.dev_config_file], stdout=dev_std_out,
                         stderr=dev_std_out, shell=False).pid
-        print("/home/paolo/code/UERANSIM/build/nr-ue" + " -c " + device.dev_config_file + "\n")
+        #print("/home/paolo/code/UERANSIM/build/nr-ue" + " -c " + device.dev_config_file + "\n")
         device.set_pid(proc_id)
     return actual_dev + num_to_add
 
@@ -201,22 +202,28 @@ def device_position_to_remove(connected_dev_num):
 
 
 def get_dev_conf_log_names(position):
-    dev_name = "imsi-2089300000000"
+    dev_name = "imsi-208930000000"
     config_name = "config/free5gc-ue"
     log_name = "log"
     if position < 10:
-        dev_name = dev_name + str(0) + str(position)
-        config_name = config_name + str(0) + str(position) + ".yaml"
-        log_name = "logs/log_0" + str(position) + ".txt"
+        dev_name = dev_name + "00" + str(position)
+        config_name = config_name + "00" + str(position) + ".yaml"
+        log_name = "logs/log_00" + str(position) + ".txt"
     else:
-        dev_name = dev_name + str(position)
-        config_name = config_name + str(position) + ".yaml"
-        log_name = "logs/log_" + str(position) + ".txt"
+        if position <= 99:
+            dev_name = dev_name + "0" + str(position)
+            config_name = config_name + "0" + str(position) + ".yaml"
+            log_name = "logs/log_0" + str(position) + ".txt"
+        else:
+            dev_name = dev_name + str(position)
+            config_name = config_name + str(position) + ".yaml"
+            log_name = "logs/log_" + str(position) + ".txt"
     return dev_name, config_name, log_name
 
 #Initial delay is necessary to let prometheus collect some data before trying to sync with it.
 print(f"Starting... initial delay of {initial_delay}\n")
-pause.sleep(initial_delay)
+#pause.sleep(initial_delay)
+
 
 on_start()
 start_time = sync_clock()
