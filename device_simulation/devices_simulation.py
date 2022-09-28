@@ -222,7 +222,7 @@ def get_dev_conf_log_names(position):
 
 #Initial delay is necessary to let prometheus collect some data before trying to sync with it.
 print(f"Starting... initial delay of {initial_delay}\n")
-#pause.sleep(initial_delay)
+pause.sleep(initial_delay)
 
 
 on_start()
