@@ -172,7 +172,7 @@ while observed_samples >= 0:
     mean_value = cumulative_value / observed_samples
     print(f"mse: {mse} | mean value: {mean_value}")
 
-    if math.sqrt(mse) > 5:
+    if math.sqrt(mse) > 2.5:
         model_need_rebuild = True
     else:
         model_need_rebuild = False
