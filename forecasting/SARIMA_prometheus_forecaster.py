@@ -5,7 +5,7 @@ Created on Sun Aug 28 10:56:12 2022
 
 @author: Paolo Bono
 """
-
+import math
 import signal
 import time
 import requests
@@ -45,6 +45,7 @@ def test_connection():
 
 
 def on_close(sig, frame):
+    i = 0
     print("Closing...\n")
     if pred_log_file is not None:
         pred_log_file.close()
@@ -54,7 +55,7 @@ def on_close(sig, frame):
 def collect_initial_data():
     actual_time = time.time()
     end_time = actual_time - (actual_time % scraping_interval_sec)
-    start_time = end_time - (scraping_interval_sec * min_num_sample)
+    start_time = end_time - (scraping_interval_sec * max_samples_for_training)
     next_collection = end_time + scraping_interval_sec
     uri = f"{scraping_API_range}&start={start_time}&end={end_time}&step={scraping_interval_sec}s"
     # custom_params = {'start':str(start_time),'end':str(end_time),'step':str(scraping_interval_sec)+'s'}
@@ -117,7 +118,7 @@ def collect_data():
 # Imposta il metodo di chiusura
 signal.signal(signal.SIGTERM, on_close)
 signal.signal(signal.SIGINT, on_close)
-time.sleep(scraping_interval_sec*2)
+time.sleep(scraping_interval_sec * 2)
 samples, next_sample_collection = collect_initial_data()  # Get samples from prometheus
 print("Initial samples: " + str(samples.size))
 
@@ -129,36 +130,49 @@ while samples.size < min_num_sample:
 
 samples_freq = samples.asfreq('10S')
 pred_log_file = open("pred.log", "a+")
-i: int = min_num_sample
-minimum = 0
-maximum = 0
-comulative_sqr_err: float = 0
+observed_samples: int = 0
+conf_minimum = 0
+conf_maximum = 0
+cumulative_sqr_err: float = 0
+cumulative_value: float = 0
 prediction_mean = 0
+model_need_rebuild = True
+mean_value = 0
+mse = 0
 
-while i > 0:
+while observed_samples >= 0:
     # define model
-    model = SARIMAX(samples, order=my_order, seasonal_order=my_seasonal_order)
+    if model_need_rebuild:
+        model = SARIMAX(samples, order=my_order, seasonal_order=my_seasonal_order)
 
-    start_fitting = time.time()
-    fitted_model: SARIMAXResults = model.fit()
-    fitting_time = time.time() - start_fitting
-    print(f"Model tooks {fitting_time} seconds to fit.")
+        start_fitting = time.time()
+        fitted_model: SARIMAXResults = model.fit()
+        fitting_time = time.time() - start_fitting
+        print(f"Model tooks {fitting_time} seconds to fit.")
 
     forecast = fitted_model.get_forecast(seasonal_period)
     prediction_mean = forecast.predicted_mean
     conf_ints = forecast.conf_int()
 
     for j in range(0, seasonal_period):
-        i = i + 1
+        observed_samples = observed_samples + 1
         pause.until(next_sample_collection)
         samples, next_sample_collection = collect_data()
-        minimum = conf_ints.iloc[j].at["lower y"]
-        maximum = conf_ints.iloc[j].at["upper y"]
-        pred_log_file.write("[" + str(minimum) + " " + str(maximum) + "]\n")
+        conf_minimum = conf_ints.iloc[j].at["lower y"]
+        conf_maximum = conf_ints.iloc[j].at["upper y"]
+        pred_log_file.write("[" + str(conf_minimum) + " " + str(conf_maximum) + "]\n")
 
         observation = samples.iloc[-1]  # Prendo l'ultimo osservato
         print("Prediction: " + str(prediction_mean.iloc[j]) + " --> Actual value: " + str(observation))
-        comulative_sqr_err = comulative_sqr_err + (prediction_mean.iloc[j] - observation) ** 2
-        mse = comulative_sqr_err / (i - min_num_sample)
-        print("Mean square error: " + str(mse) + "\n")
+        cumulative_sqr_err = cumulative_sqr_err + (prediction_mean.iloc[j] - observation) ** 2
+        cumulative_value = cumulative_value + observation
         sys.stdout.flush()
+
+    mse = cumulative_sqr_err / observed_samples
+    mean_value = cumulative_value / observed_samples
+    print(f"mse: {mse} | mean value: {mean_value}")
+
+    if math.sqrt(mse) > 5:
+        model_need_rebuild = True
+    else:
+        model_need_rebuild = False

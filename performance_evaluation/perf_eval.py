@@ -95,14 +95,16 @@ def load_data_from_csv(metric_name):
 
 
 setup()
-start_time = time.time()
-wait_til = start_time
+print("Starting containers...")
+#We give one extra minute to services for starting. In particular to cAdvisor to start metering.
+start_test_time = time.time() + 60
+wait_til = start_test_time
 
 old_data_1 = load_data_from_csv(metrics_to_ask[0])
 old_data_2 = load_data_from_csv(metrics_to_ask[1])
 os.chdir(working_dir)
 if nwdaf_on:
-    proc_id = subprocess.Popen(["docker", "compose", "up", "-d"], stdout=subprocess.DEVNULL, shell=False).pid
+    proc_id = subprocess.Popen(["docker", "compose", "up", "-d"], stdout=subprocess.DEVNULL).pid
 else:
     proc_id = subprocess.Popen(["docker", "compose", "up", "-d", "redis", "db", "free5gc-upf", "free5gc-nrf",
                                 "prometheus", "ueransim", "free5gc-n3iwf", "free5gc-ausf", "free5gc-amf", "free5gc-udr",
@@ -110,14 +112,14 @@ else:
                                 "free5gc-webui", "cadvisor"], stdout=subprocess.DEVNULL, shell=False, ).pid
 os.chdir(starting_dir)
 
-for i in range(1, minutes_to_test):
+for i in range(0, minutes_to_test):
     wait_til = wait_til + 60
     pause.until(wait_til)
     print(f"{minutes_to_test - i} minutes to TEST END")
 
-df1 = get_metric(dataframe=old_data_1, metric_name=metrics_to_ask[0], start_time=start_time, end_time=wait_til,
+df1 = get_metric(dataframe=old_data_1, metric_name=metrics_to_ask[0], start_time=start_test_time, end_time=wait_til,
                  average=False, minutes_of_average=0)
-df2 = get_metric(dataframe=old_data_2, metric_name=metrics_to_ask[1], start_time=start_time, end_time=wait_til,
+df2 = get_metric(dataframe=old_data_2, metric_name=metrics_to_ask[1], start_time=start_test_time, end_time=wait_til,
                  average=True, minutes_of_average=minutes_to_test)
 
 save_df_to_csv(df1, metrics_to_ask[0])
