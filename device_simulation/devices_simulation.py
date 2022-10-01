@@ -160,10 +160,10 @@ def remove_device(actual_dev: int, num_to_rem):
         Popen([exec_location[1], device.dev_imsi, "-e", "deregister switch-off"])
         # print("/home/paolo/code/UERANSIM/build/nr-cli" + device.dev_imsi + " -e 'deregister switch-off'\n")
         time.sleep(pause_time)
-        try:
-            os.kill(device.pid, signal.SIGTERM)
-        except ProcessLookupError:
-            print(f"[{Colors.FAIL}{datetime.now()}] [ERR] Process {device.pid} not found!")
+        #try:
+        #    os.kill(device.pid, signal.SIGTERM)
+        #except ProcessLookupError:
+        #    print(f"[{Colors.FAIL}{datetime.now()}] [ERR] Process {device.pid} not found!")
         device.remove_pid()
         assert (position >= 0)
     return actual_dev - num_to_rem

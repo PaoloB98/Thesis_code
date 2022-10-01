@@ -1,9 +1,16 @@
 import requests
 import json
+import sys
 
 f = open('data/device_reg_body.json')
 data = json.load(f)
 device_number = 1000
+
+address = "localhost"
+arguments = sys.argv[1:]
+if len(arguments) > 1:
+    if arguments[0] == "-addr":
+        address = arguments[1]
 
 for i in range(0, device_number):
     print("Iteration " + str(i) + "\n")
@@ -17,7 +24,7 @@ for i in range(0, device_number):
             num_str = str(i)
 
     imsi = "imsi-208930000000" + num_str
-    url = f"http://localhost:5000/api/subscriber/{imsi}/20893"
+    url = f"http://{address}:5000/api/subscriber/{imsi}/20893"
     data['ueId'] = imsi
     headers_c = {"Content-Type": "application/json", "Accept-Charset": "utf-8", "Token": "admin"}
 

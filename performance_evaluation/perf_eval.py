@@ -5,13 +5,20 @@ import pause
 import requests
 import os
 import subprocess
+import sys
 
+deploy = True
 nwdaf_on = 1
 minutes_to_test: int = 60
 starting_dir = os.getcwd()
-address = "localhost:9089"
+address = "localhost"
+arguments = sys.argv[1:]
+if len(arguments) > 1:
+    if arguments[0] == "-addr":
+        address = arguments[1]
+
 protocol = "http://"
-scraping_API = protocol + address + "/api/v1/query?query="
+scraping_API = protocol + address + ":9089/api/v1/query?query="
 metrics_to_ask = ["container_cpu_system_seconds_total", "container_memory_usage_bytes"]
 working_dir = "/home/paolo/Coding/free5gc-compose-thesis"
 column_names = ["start_time", "end_time", "metric_name", "value", "container", "average", "min_average"]
@@ -103,13 +110,15 @@ wait_til = start_test_time
 old_data_1 = load_data_from_csv(metrics_to_ask[0])
 old_data_2 = load_data_from_csv(metrics_to_ask[1])
 os.chdir(working_dir)
-if nwdaf_on:
-    proc_id = subprocess.Popen(["docker", "compose", "up", "-d"], stdout=subprocess.DEVNULL).pid
-else:
-    proc_id = subprocess.Popen(["docker", "compose", "up", "-d", "redis", "db", "free5gc-upf", "free5gc-nrf",
-                                "prometheus", "ueransim", "free5gc-n3iwf", "free5gc-ausf", "free5gc-amf", "free5gc-udr",
-                                "free5gc-pcf", "free5gc-udm", "free5gc-nssf", "free5gc-smf", "free5gc-nrf",
-                                "free5gc-webui", "cadvisor"], stdout=subprocess.DEVNULL, shell=False, ).pid
+
+if not deploy:
+    if nwdaf_on:
+        proc_id = subprocess.Popen(["docker", "compose", "up", "-d"], stdout=subprocess.DEVNULL).pid
+    else:
+        proc_id = subprocess.Popen(["docker", "compose", "up", "-d", "redis", "db", "free5gc-upf", "free5gc-nrf",
+                                    "prometheus", "ueransim", "free5gc-n3iwf", "free5gc-ausf", "free5gc-amf", "free5gc-udr",
+                                    "free5gc-pcf", "free5gc-udm", "free5gc-nssf", "free5gc-smf", "free5gc-nrf",
+                                    "free5gc-webui", "cadvisor"], stdout=subprocess.DEVNULL, shell=False, ).pid
 os.chdir(starting_dir)
 
 for i in range(0, minutes_to_test):
