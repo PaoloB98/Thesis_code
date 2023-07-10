@@ -166,11 +166,13 @@ while observed_samples >= 0:
         print("Prediction: " + str(prediction_mean.iloc[j]) + " --> Actual value: " + str(observation))
         cumulative_sqr_err = cumulative_sqr_err + (prediction_mean.iloc[j] - observation) ** 2
         cumulative_value = cumulative_value + observation
+        print("MSE: " + str(cumulative_sqr_err/observed_samples) + "\n")
         sys.stdout.flush()
 
     mse = cumulative_sqr_err / observed_samples
     mean_value = cumulative_value / observed_samples
-    print(f"mse: {mse} | mean value: {mean_value}")
+    print(f"mse: {mse} | mean value: {mean_value}\n\n")
+    sys.stdout.flush()
 
     if math.sqrt(mse) > 2.5:
         model_need_rebuild = True

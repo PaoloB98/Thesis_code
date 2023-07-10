@@ -34,3 +34,5 @@ for i in range(0, device_number):
         print(f"Successfully added device {imsi}")
     else:
         print(f"Error while adding {imsi}")
+        print(response)
+
